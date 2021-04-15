@@ -1,6 +1,6 @@
 ---
 layout: post
-title: lorem
+title: dummy3
 ---
 
 <img src="/images/fulls/02.jpg" class="fit image">
