@@ -5,7 +5,7 @@ layout: default
 <div id="main">
   <section>
     <header>
-      <h2>welcome!</h2>
+      <h1>welcome!</h1>
     </header>
     <p>
       this site is intentionally created to show my portfolio,<br />
@@ -25,7 +25,7 @@ layout: default
         <section>{{ post.excerpt }}</section>
         <footer>
           <ul class="actions">
-            <li><a href="{{ post.url }}" class="button">Read More</a></li>
+            <li><a href="{{ post.url }}" class="button">read more</a></li>
             <li class="editor-link">
               <a href="cloudcannon:collections/{{ post.path }}" class="button"
                 ><strong>&#9998;</strong> Edit post</a
@@ -45,7 +45,8 @@ layout: default
     <ul class="actions">
       <li>
         <a
-          href="https://bit.ly/cv-rafid-2021"
+          href="#"
+          onClick="window.open('https://bit.ly/cv-rafid-2021', '_blank')"
           class="button icon solid fa-download"
           >my resume</a
         >
@@ -63,10 +64,14 @@ layout: default
             indonesia
           </li>
           <li>
-            <h3 class="icon solid fa-envelope">
-              <span class="label">Email</span>
+            <h3 class="icon brands fa-github">
+              <span class="label">Github</span>
             </h3>
-            <a href="#">rafidmuqsith@gmail.com</a>
+            <a
+              href="#"
+              onClick="window.open('https://github.com/rmuqsith', '_blank')"
+              >rmuqsith</a
+            >
           </li>
         </ul>
       </div>

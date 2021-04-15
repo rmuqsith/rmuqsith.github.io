@@ -1759,7 +1759,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #787878;
+  color: #999999;
   font-weight: 400;
   line-height: 1em;
 }
@@ -1776,6 +1776,7 @@ h6 a {
 
 h1 {
   font-size: 2em;
+  font-weight: 800;
   line-height: 1.5em;
 }
 
@@ -2498,7 +2499,7 @@ input[type="button"],
     border-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 0.35em;
-  border: solid 3px #efefef;
+  border: solid 3px #aaaaaa;
   color: #787878 !important;
   cursor: pointer;
   display: inline-block;
@@ -2574,7 +2575,7 @@ input[type="button"].special,
 .button.special {
   background-color: #49bf9d;
   border-color: #49bf9d;
-  color: #ffffff !important;
+  color: #aaaaaa !important;
 }
 
 input[type="submit"].special:hover,
@@ -2602,7 +2603,7 @@ input[type="button"]:disabled,
 .button.disabled,
 .button:disabled {
   background-color: #e7e7e7 !important;
-  border-color: #e7e7e7 !important;
+  border-color: #aaaaaa !important;
   color: #b2b2b2 !important;
   cursor: default;
 }
@@ -3288,7 +3289,7 @@ body.is-touch .poptrox-popup .closer {
   margin: 0 0 1.5em 0;
   text-align: center;
   white-space: nowrap;
-  border: solid 3px #efefef;
+  border: solid 3px #aaaaaa;
   border-radius: 0.35em;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,

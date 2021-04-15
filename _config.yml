@@ -1,5 +1,5 @@
 locale: "en-US"
-title: Rafid Muqsith # Title of your site
+title: rafid muqsith # Title of your site
 url: "http://rmuqsith.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name: Rafid Muqsith
+  name: rafid muqsith
   email: rafidmuqsith@gmail.com
   twitter: madrafid
 
