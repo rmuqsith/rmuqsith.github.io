@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/update/2015/02/06/dummy2/</loc>
-<lastmod>2015-02-06T21:37:44+07:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/2021/04/13/dummy3/</loc>
 <lastmod>2021-04-13T00:00:00+07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/update/2021/04/14/dummy2/</loc>
+<lastmod>2021-04-14T21:37:44+07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2021/04/15/dummy1/</loc>

@@ -5,17 +5,15 @@ layout: default
 <div id="main">
   <section>
     <header>
-      <h1>welcome!</h1>
+      <h1>Welcome!</h1>
     </header>
     <p>
-      this site is intentionally created to show my portfolio,<br />
+      This site is intentionally created to show my portfolio,<br />
       but maybe I'll post other things as well.
     </p>
   </section>
 
   <section>
-    <h1>posts</h1>
-    <br />
     <div class="row">
       {% for post in site.posts %}
       <article class="{% cycle '6u', '6u$' %} 12u(small)">
@@ -25,7 +23,7 @@ layout: default
         <section>{{ post.excerpt }}</section>
         <footer>
           <ul class="actions">
-            <li><a href="{{ post.url }}" class="button">read more</a></li>
+            <li><a href="{{ post.url }}" class="button">Read More</a></li>
             <li class="editor-link">
               <a href="cloudcannon:collections/{{ post.path }}" class="button"
                 ><strong>&#9998;</strong> Edit post</a
@@ -38,9 +36,9 @@ layout: default
     </div>
   </section>
   <section>
-    <h2>about</h2>
+    <h2>About</h2>
     <p>
-      loves to try out, create, fix, or even (most of the time) break things.
+      Loves to try out, create, fix, or even (most of the time) break things.
     </p>
     <ul class="actions">
       <li>
@@ -48,7 +46,7 @@ layout: default
           href="#"
           onClick="window.open('https://bit.ly/cv-rafid-2021', '_blank')"
           class="button icon solid fa-download"
-          >my resume</a
+          >My Resume</a
         >
       </li>
     </ul>
@@ -59,9 +57,9 @@ layout: default
             <h3 class="icon solid fa-home">
               <span class="label">Address</span>
             </h3>
-            15810 kab. tangerang<br />
-            banten<br />
-            indonesia
+            15810 Kab. Tangerang<br />
+            Banten<br />
+            Indonesia
           </li>
           <li>
             <h3 class="icon brands fa-github">
