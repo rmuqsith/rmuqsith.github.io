@@ -1,17 +1,17 @@
 locale: "en-US"
-title: rafid muqsith # Title of your site
+title: Rafid Muqsith # Title of your site
 url: "http://rmuqsith.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
-  welcome! this site is intentionally created to show my portfolio,
+  Welcome! This site is intentionally created to show my portfolio,
   but maybe I'll post other things as well.
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name: rafid muqsith
+  name: Rafid Muqsith
   email: rafidmuqsith@gmail.com
   twitter: madrafid
 
