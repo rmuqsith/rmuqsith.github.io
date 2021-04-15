@@ -1,50 +1,52 @@
 ---
 layout: default
 ---
+
 <div id="main">
   <article>
     <header>
       <h1 class="post-title">{{ page.title }}</h1>
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <p class="post-meta">
+        {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{
+        page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+      </p>
     </header>
 
-    <section>
-      {{ content }}
-    </section>
+    <section>{{ content }}</section>
 
     <footer>
       <div class="row">
-      {% if page.previous %}
+        {% if page.previous %}
         <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
           <header>
-            <h2><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
+            <h2>
+              <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+            </h2>
           </header>
-          <section>
-            {{ page.previous.excerpt }}
-          </section>
+          <section>{{ page.previous.excerpt }}</section>
           <footer>
             <ul class="actions">
-              <li><a href="{{ page.previous.url }}" class="button">Read More</a></li>
+              <li>
+                <a href="{{ page.previous.url }}" class="button">read More</a>
+              </li>
             </ul>
           </footer>
         </article>
-      {% endif %}
-
-      {% if page.next %}
+        {% endif %} {% if page.next %}
         <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right">
           <header>
             <h2><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
           </header>
-          <section>
-            {{ page.next.excerpt | markdownify }}
-          </section>
+          <section>{{ page.next.excerpt | markdownify }}</section>
           <footer>
             <ul class="actions">
-              <li><a href="{{ page.next.url }}" class="button">Read More</a></li>
+              <li>
+                <a href="{{ page.next.url }}" class="button">read More</a>
+              </li>
             </ul>
           </footer>
         </article>
-      {% endif %}
+        {% endif %}
       </div>
     </footer>
   </article>
