@@ -1,0 +1,8 @@
+- name: Twitter
+  link: "https://www.twitter.com/madrafid"
+  social_icon: Twitter
+  new_window: true
+- name: LinkedIn
+  link: "https://www.linkedin.com/in/rafidmuqsith/"
+  social_icon: LinkedIn
+  new_window: true
