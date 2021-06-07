@@ -21,7 +21,7 @@ social:
   links:
     - https://github.com/rmuqsith/rmuqsith.github.io
 
-permalink: pretty
+permalink: none
 
 gems:
   - "jekyll-feed"
