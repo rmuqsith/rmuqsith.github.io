@@ -1,6 +1,7 @@
 ---
 layout: post
 title:
-categories:
+category:
 date:
+permalink:
 ---

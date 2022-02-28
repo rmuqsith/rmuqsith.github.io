@@ -3,15 +3,16 @@ layout: default
 ---
 
 <div id="main">
-  <section>
+  <!--
+    <section>
     <header>
-      <h1>Welcome!</h1>
+      <h1>Delamat Satang</h1>
     </header>
     <p>
-      Sorry for the inconvenience, this site is currently under construction. Peace!.
+      Just a simple website for my personal landing page
     </p>
   </section>
-
+-->
   <section>
     <div class="row">
       {% for post in site.posts %}
@@ -23,10 +24,6 @@ layout: default
         <footer>
           <ul class="actions">
             <li><a href="{{ post.url }}" class="button">Read More</a></li>
-            <li class="editor-link">
-              <a href="cloudcannon:collections/{{ post.path }}" class="button"
-                ><strong>&#9998;</strong> Edit post</a
-              >
             </li>
           </ul>
         </footer>
@@ -36,7 +33,7 @@ layout: default
   </section>
   <section>
     <h2>Profile</h2>
-    <p>Below is my latest curriculum vitae, including my recent projects.</p>
+    <p>Below is my latest curriculum vitae and portfolio.</p>
     <ul class="actions">
       <li>
         <a
@@ -45,8 +42,12 @@ layout: default
           class="button icon solid fa-download"
           >Curriculum Vitae</a
         >
+        <a href="/portfolio"
+          class="button icon">Portfolio</a>
       </li>
+      
     </ul>
+        
     <div class="row">
       <div class="col-4 col-12-small">
         <ul class="labeled-icons">
