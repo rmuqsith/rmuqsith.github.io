@@ -30,7 +30,7 @@ Game Engine: Unity<br/><br/>
 Gnom Studios<br/>
 -Responsible for the game audio: BGM and SFX<br/><br/>
 
-<img src="/images/fulls/umbi.jpg" class="image">
+<img src="/images/fulls/umbi.jpg" class="image"><br/><br/>
 Umbiumbiann The Gemu<br/>
 2D Mobile Casual<br/>
 Game Engine: Unity<br/>
