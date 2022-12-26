@@ -11,7 +11,7 @@ MDL<br/>
 Mobile Games<br/>
 Game Engine: Unity<br/><br/>
 MDL (Maentrus Digital Lab)<br/>
--Designs and creates stages for each game being developed.<br/>
+-Creates stages for each game being developed.<br/>
 -Develop editor scripts to improve stage creation efficiency.<br/>
 -Assisted in creating the game design for the games developed.<br/><br/>
 
