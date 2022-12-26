@@ -6,6 +6,15 @@ category:
 permalink: portfolio
 ---
 
+<img src="/images/fulls/grid mdl.png" class="fit image"><br/>
+MDL<br/>
+Mobile Games<br/>
+Game Engine: Unity<br/><br/>
+MDL (Maentrus Digital Lab)<br/>
+-Designs and creates stages for each game being developed.<br/>
+-Develop editor scripts to improve stage creation efficiency.<br/>
+-Assisted in creating the game design for the games developed.<br/><br/>
+
 <img src="/images/fulls/projectp.png" class="fit image"><br/>
 Untitled Project<br/>
 3D Hack and Slash Singleplayer<br/>
