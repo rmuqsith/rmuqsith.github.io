@@ -54,7 +54,7 @@ Database: Firebase<br/><br/>
 Ristekbrin CPPBT 2020 Finalist, Technology Category (National Campus Innovation Funding Program)<br/>
 -Create the game design<br/>
 -Animate the characters<br/>
--Programming and development in the game engine and database<br/>
+-Programming and development in the game engine and database<br/><br/>
 
 <img src="/images/fulls/protectean.png" class="fit image">
 Protectean<br/>
