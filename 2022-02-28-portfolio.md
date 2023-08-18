@@ -93,7 +93,7 @@ Campus Project<br/>
 -Responsible for the UX design and UI design of the game.<br/>
 -Contributed to the game design.<br/><br/>
 
-**'Other Random Stuffs'**<br/>
+**Other Random Stuffs**<br/>
 <img src="/images/fulls/portal_vfx.gif" class="fit image">
 Portal VFX<br/>
 -Unreal Engine 5 Niagara System<br/><br/>
