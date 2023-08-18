@@ -6,6 +6,14 @@ category:
 permalink: portfolio
 ---
 
+<img src="/images/fulls/fds.gif" class="fit image">
+FDS (Fazza Driving Simulator)<br/>
+Simulation<br/>
+Game Engine: Unity<br/><br/>
+Fazza Royal Yantasir Simulasi<br/>
+-Test and optimize scenes. Combine meshes, adjust LODs, adjust light/shadows, adjust postprocessing, and some other tweaks<br/>
+-Added editor script to replace the same types of static meshes with single prefab or multiple randomly.<br/><br/>
+
 <img src="/images/fulls/grid mdl.png" class="fit image">
 MDL<br/>
 Mobile Games<br/>
@@ -84,3 +92,11 @@ Game Engine: Unity<br/><br/>
 Campus Project<br/>
 -Responsible for the UX design and UI design of the game.<br/>
 -Contributed to the game design.<br/><br/>
+
+Other Random Stuffs
+<img src="/images/fulls/portal_vfx.gif" class="fit image">
+Portal VFX<br/>
+-Unreal Engine 5 Niagara System<br/>
+<img src="/images/fulls/stylizedwater_shader.gif" class="fit image">
+Stylized Water<br/>
+-Unity Shadergraph<br/><br/>
