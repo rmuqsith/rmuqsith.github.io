@@ -7,7 +7,7 @@ permalink: portfolio
 ---
 
 <img src="/images/fulls/fds.gif" class="fit image">
-FDS (Fazza Driving Simulator)<br/>
+**FDS (Fazza Driving Simulator)**<br/>
 Simulation<br/>
 Game Engine: Unity<br/><br/>
 Fazza Royal Yantasir Simulasi<br/>
