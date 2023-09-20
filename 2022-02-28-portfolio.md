@@ -96,7 +96,7 @@ Campus Project<br/>
 **Other Random Stuffs**<br/>
 <img src="/images/fulls/rainFX.gif" class="fit image">
 Rain FX<br/>
--Rain Material using Unity Shadergraph, intensity controlled by script<br/><br/>
+-Raindrop, Ripple, and Puddle Materials using Unity Shadergraph, intensity controlled by script<br/><br/>
 <img src="/images/fulls/portal_vfx.gif" class="fit image">
 Portal VFX<br/>
 -Unreal Engine 5 Niagara System<br/><br/>
