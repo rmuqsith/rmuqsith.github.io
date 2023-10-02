@@ -7,7 +7,7 @@ permalink: portfolio
 ---
 **Fazza Royal Yantasir Simulasi**<br/>
 <img src="/images/fulls/shipweather.gif" class="fit image">
-SHS (Ship Handling Simulator)<br/>
+**SHS (Ship Handling Simulator)**<br/>
 Game Engine: Unity<br/>
 External Assets: Dynamic Water Physics, Enviro 3, Ocean Crest<br/>
 -Initiated and set up project to PlasticSCM
@@ -15,7 +15,7 @@ External Assets: Dynamic Water Physics, Enviro 3, Ocean Crest<br/>
 -Implemented weather and time system.<br/>
 -Implemented ocean water system.<br/><br/>
 <img src="/images/fulls/fds.gif" class="fit image">
-FDS (Fazza Driving Simulator)<br/>
+**FDS (Fazza Driving Simulator)**<br/>
 Simulation<br/>
 Game Engine: Unity<br/>
 -Set up existing project files to PlasticSCM.
