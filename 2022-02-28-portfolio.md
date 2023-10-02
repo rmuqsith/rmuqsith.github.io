@@ -22,7 +22,7 @@ Game Engine: Unity<br>
 
 **SHS (Ship Handling Simulator) - Unreal Prototype**<br>
 Game Engine: Unreal<br>
--Configure, test, and implement Water Buoyancy Component.
+-Configure, test, and implement Water Buoyancy Component.<br>
 -Set up UI Widget and Blueprint to display input values<br>
 -Configure the Input from Custom Hardware and control it from Blueprint<br><br>
 **FDS (Fazza Driving Simulator) - Unreal Prototype**<br>
