@@ -5,12 +5,12 @@ date: 2022-02-28 16:17
 category:
 permalink: portfolio
 ---
-**Fazza Royal Yantasir Simulasi**<br/>
+### **Fazza Royal Yantasir Simulasi**<br/><br/>
 <img src="/images/fulls/shipweather.gif" class="fit image">
 **SHS (Ship Handling Simulator)**<br/>
 Game Engine: Unity<br/>
 External Assets: Dynamic Water Physics, Enviro 3, Ocean Crest<br/>
--Initiated and set up project to PlasticSCM
+-Initiated and set up project to PlasticSCM<br/>
 -Set up scene, adjust light/shadows, adjust postprocessing, and some other tweaks<br/>
 -Implemented weather and time system.<br/>
 -Implemented ocean water system.<br/><br/>
@@ -18,12 +18,12 @@ External Assets: Dynamic Water Physics, Enviro 3, Ocean Crest<br/>
 **FDS (Fazza Driving Simulator)**<br/>
 Simulation<br/>
 Game Engine: Unity<br/>
--Set up existing project files to PlasticSCM.
+-Set up existing project files to PlasticSCM.<br/>
 -Test and optimize scenes. Combine meshes, readjust LODs, readjust light/shadows, readjust postprocessing, and some other tweaks<br/>
 -Added editor script to replace the same types of meshes with single prefab or multiple randomly.<br/><br/>
 
 <img src="/images/fulls/grid mdl.png" class="fit image">
-**MDL**<br/>
+### **MDL**<br/>
 Mobile Games<br/>
 Game Engine: Unity<br/><br/>
 MDL (Maentrus Digital Lab)<br/>
@@ -33,7 +33,7 @@ MDL (Maentrus Digital Lab)<br/>
 -Assisted in creating the game design for the games developed.<br/><br/>
 
 <img src="/images/fulls/projectp.png" class="fit image">
-**Untitled Project** (Prototype Project)<br/>
+### **Untitled Project** (Prototype Project)<br/>
 3D Hack and Slash Singleplayer<br/>
 Game Engine: Unity<br/><br/>
 Gnom Studios<br/>
@@ -41,7 +41,7 @@ Gnom Studios<br/>
 -Responsible for the game VFX and post-processing <br/><br/>
 
 <img src="/images/fulls/kago.png" class="fit image">
-**Kago**<br/>
+### **Kago**<br/>
 2D Point and Click Puzzle<br/>
 Game Engine: Unity<br/><br/>
 Gnom Studios<br/>
@@ -49,7 +49,7 @@ Gnom Studios<br/>
 -Responsible for the game sequence/timeline audio<br/><br/>
 
 <img src="/images/fulls/umbi.jpg" class="fit image"><br/><br/>
-**Umbiumbiann The Gemu**<br/>
+### **Umbiumbiann The Gemu**<br/>
 2D Mobile Casual<br/>
 Game Engine: Unity<br/>
 Database: Firebase<br/><br/>
@@ -57,7 +57,7 @@ Gnom Studios<br/>
 -Responsible for the user authentication system and database<br/><br/>
 
 <img src="/images/fulls/crumbrawl.gif" class="fit image">
-**Crumbrawl** (Prototype Project)<br/>
+### **Crumbrawl** (Prototype Project)<br/>
 3D Multiplayer Mobile Battle Arena<br/>
 Game Engine: Unity<br/>
 Tools: Playmaker, Photon PUN<br/><br/>
@@ -65,7 +65,7 @@ Gnom Studios<br/>
 -Responsible for all of the development. Designing and programming.<br/><br/>
 
 <img src="/images/fulls/balarunta.png" class="fit image">
-**Balarunta**<br/>
+### **Balarunta**<br/>
 Hybrid: Waste Collection Mobile App - Pet Simulation<br/>
 Game Engine: Unity<br/>
 Database: Firebase<br/><br/>
@@ -75,7 +75,7 @@ Ristekbrin CPPBT 2020 Finalist, Technology Category (National Campus Innovation 
 -Programmed and developed in the game engine and database<br/><br/>
 
 <img src="/images/fulls/protectean.png" class="fit image">
-**Protectean**<br/>
+### **Protectean**<br/>
 "Protect the ocean by eating up trash!"
 2D Casual Web Game<br/>
 Game Engine: Unity<br/><br/>
@@ -86,7 +86,7 @@ Personal Project<br/>
 -Supervise the art and UI assets<br/><br/>
 
 <img src="/images/fulls/hfmap.png" class="fit image">
-**Hunter Forest**<br/>
+### **Hunter Forest**<br/>
 2D Top Down<br/>
 Game Engine: Unity<br/>
 Tools: Unity Tile Pallet<br/><br/>
@@ -95,14 +95,14 @@ Campus Project<br/>
 -Contributed to the game design.<br/><br/>
 
 <img src="/images/fulls/bbb.gif" class="fit image">
-**Brutal Boss Battle**<br/>
+### **Brutal Boss Battle**<br/>
 3D Hack and Slash Boss Fighting<br/>
 Game Engine: Unity<br/><br/>
 Campus Project<br/>
 -Responsible for the UX design and UI design of the game.<br/>
 -Contributed to the game design.<br/><br/>
 
-**Others**<br/>
+### **Others**<br/><br/>
 <img src="/images/fulls/rainFX.gif" class="fit image">
 Rain FX<br/>
 -Raindrop, Ripple, and Puddle Materials using Unity Shadergraph, intensity controlled by script<br/><br/>
