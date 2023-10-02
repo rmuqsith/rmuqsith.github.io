@@ -48,7 +48,7 @@ Gnom Studios<br>
 -Implemented for the game sequence/timeline audio<br><br>
 
 ### **Umbiumbiann The Gemu**<br>
-<img src="/images/fulls/umbi.jpg" class="fit image"><br>
+<img src="/images/fulls/umbi.jpg" class="fit image">
 2D Mobile Casual<br>
 Game Engine: Unity<br>
 Database: Firebase<br>
