@@ -9,7 +9,6 @@ permalink: portfolio
 <img src="/images/fulls/shipweather.gif" class="fit image">
 **SHS (Ship Handling Simulator)**<br>
 Game Engine: Unity<br>
-External Assets: Dynamic Water Physics, Enviro 3, Ocean Crest<br>
 -Initiated and set up the project to PlasticSCM<br>
 -Set up scene, adjust light/shadows, adjust postprocessing, and some other tweaks<br>
 -Implemented weather and time system.<br>
