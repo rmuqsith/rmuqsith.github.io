@@ -72,8 +72,9 @@ Game Engine: Unity<br>
 Database: Firebase<br>
 Ristekbrin CPPBT 2020 Finalist, Technology Category (National Campus Innovation Funding Program)<br>
 -Created the game design<br>
--Animate the character<br>
--Programmed and developed in the game engine and database<br><br>
+-Animate the character<be>
+-Supervise the art and UI assets<br>
+-Developed the game, android app and database<br><br>
 
 ### **Protectean**<br>
 <img src="/images/fulls/protectean.png" class="fit image">
@@ -81,10 +82,9 @@ Ristekbrin CPPBT 2020 Finalist, Technology Category (National Campus Innovation 
 2D Casual Web Game<br>
 Game Engine: Unity<br>
 Personal Project<br>
--Create the game design<br>
+-Create the game design and UI<br>
 -Animate the characters<br>
--Programming and development in the game engine<br><br>
--Supervise the art and UI assets<br><br>
+-Develop the game scripts<br><br>
 
 ### **Hunter Forest**<br>
 <img src="/images/fulls/hfmap.png" class="fit image">
