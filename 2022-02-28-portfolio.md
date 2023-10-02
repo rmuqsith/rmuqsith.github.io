@@ -13,13 +13,22 @@ Game Engine: Unity<br>
 -Set up scene, adjust light/shadows, adjust postprocessing, and some other tweaks<br>
 -Implemented weather and time system.<br>
 -Implemented ocean water system.<br><br>
-
 <img src="/images/fulls/fds.gif" class="fit image">
 **FDS (Fazza Driving Simulator)**<br>
 Game Engine: Unity<br>
 -Set up existing project files to PlasticSCM.<br>
 -Test and optimize scenes. Combine meshes, readjust LODs, readjust light/shadows, readjust postprocessing, and some other tweaks<br>
 -Added editor script to replace the same types of meshes with single prefab or multiple randomly.<br><br>
+
+**SHS (Ship Handling Simulator) - Unreal Prototype**<br>
+Game Engine: Unreal<br>
+-Configure, test, and implement Water Buoyancy Component.
+-Set up UI Widget and Blueprint to display input values<br>
+-Configure the Input from Custom Hardware and control it from Blueprint<br><br>
+**FDS (Fazza Driving Simulator) - Unreal Prototype**<br>
+Game Engine: Unreal<br>
+-Configure, test, and implement ChaosVehicle.<br>
+-Configure the Input from Driving Wheel Controller and control it from Blueprint<br><br>
 
 ### **MDL**<br>
 <img src="/images/fulls/grid mdl.png" class="fit image">
