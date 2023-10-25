@@ -5,6 +5,13 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: "UA-194774648-1"
 google_analytics: "UA-194774648-1"
 
+# Analytics
+analytics:
+  provider               : "google-gtag"
+  google:
+    measurement_id          : "G-36V8L7F5TX"
+    anonymize_ip         : # true, false (default)
+
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
   Welcome! This site is intentionally created to show my portfolio,
