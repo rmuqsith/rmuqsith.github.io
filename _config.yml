@@ -3,6 +3,7 @@ title: Rafid Muqsith # Title of your site
 url: "http://rmuqsith.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: "UA-194774648-1"
+google_analytics: "UA-194774648-1"
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
