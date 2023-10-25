@@ -2,7 +2,11 @@
   link: "https://www.twitter.com/madrafid"
   social_icon: Twitter
   new_window: true
+- name: Instagram
+  link: "https://www.instagram.com/rmuqsith"
+  social_icon: Instagram
+  new_window: true
 - name: LinkedIn
-  link: "https://www.linkedin.com/in/rafidmuqsith/"
+  link: "https://www.linkedin.com/in/rafidmuqsith"
   social_icon: LinkedIn
   new_window: true
