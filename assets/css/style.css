@@ -354,6 +354,10 @@ h3 {
   height: 100vh;
 }
 
+.card a{
+  color: #E1E8F5;
+}
+
 .card .card-reveal{
   color: #E1E8F5;
   background-color: #0B0E14;
