@@ -385,7 +385,8 @@ h3 {
 }
 
 .greetings{
-  margin-top: 100px;
+  font-weight: 400;
+  margin-top: 60px;
   margin-left: 0;
   margin-bottom: 10px;
   padding-left: 0;
