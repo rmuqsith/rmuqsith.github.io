@@ -356,7 +356,7 @@ li.logo span {
 h3 {
   font-weight: 600;
   margin-bottom: 20px;
-  margin-top: 0;
+  margin-top: 60px;
   padding: 30px 40px;
 }
 
@@ -385,6 +385,7 @@ h3 {
 }
 
 .greetings{
+  margin-top: 100px;
   margin-left: 0;
   margin-bottom: 10px;
   padding-left: 0;
@@ -563,7 +564,7 @@ a.hoverline:hover {
   height: 360px;
 }
 
-#skills h4 {
+#skills h3 {
   padding-top: 50px;
   margin-bottom: 50px;
   padding-bottom: 20px;
