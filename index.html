@@ -1,622 +1,899 @@
 <!-- <!DOCTYPE html> -->
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Materialize - Compiled and minified CSS-->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
+    />
+    <!-- Icon - CSS-->
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Icon - CSS-->
+    <!-- Custom Styles-->
+    <link rel="icon" href="assets/img/favicon-square3.png" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Rafid Muqsith</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
 
-  <!-- Custom Styles-->
-  <link rel="icon" href="assets/img/favicon-square3.png">
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <title>Rafid Muqsith</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: "Poppins", sans-serif;
-    }
-  </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Google Site Verification for indexing -->
+    <!-- <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" /> -->
+  </head>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <!-- Google Site Verification for indexing -->
-  <!-- <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" /> -->
-</head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript> -->
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
+    <!-- Navigation Menu-->
+    <!-- Nav class 1 -->
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      &#8593;
+    </button>
 
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
+    <nav class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="bold">
+          <a
+            aria-label="Navigate to the About section"
+            href="#about"
+            class="waves-effect waves-dark white-text"
+            ><i class="bi bi-person-fill"></i
+          ></a>
+        </li>
 
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark white-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-
-      <li class="bold">
-        <!-- mdi-av-web small
+        <li class="bold">
+          <!-- mdi-av-web small
              mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark white-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-    </ul>
-  </nav>
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#skills"
+            class="waves-effect waves-dark white-text"
+            ><i class="bi bi-hammer"></i
+          ></a>
+        </li>
 
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: About -->
-    <section id="about" class="section scrollspy">
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign">
-            <div class="caption">
-              <h4>Hi, This is <span style="font-weight: 600;">Rafid.</span></h4>
-              <h5 style="color:#E1E8F5">A <span class="grey">Game Developer</span>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              as well as an enthusiastic tinker who loves to solve puzzles, with an easy-to-adapt mentality and a curious mind.</h5>
-            </div>
-            <div class='buttons'>
-              <a href="#contact" class="contactme">Contact</a>
-              <a href="https://docs.google.com/document/d/1QT_QZmWflgze6jCmil7aB3Iq2Yrwa3C2cAD5QL68WPs/preview" target="_blank" class="viewme">View Resume <i class="bi bi-eye-fill"></i></a>
-              <a href="https://docs.google.com/document/d/1QT_QZmWflgze6jCmil7aB3Iq2Yrwa3C2cAD5QL68WPs/export?format=pdf" target="_blank" class="viewme">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+        <li class="bold">
+          <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark white-text"
+            ><i class="bi bi-collection-fill"></i
+          ></a>
+        </li>
+
+        <li class="bold">
+          <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#contact"
+            class="waves-effect waves-dark white-text"
+            ><i class="bi bi-card-text"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content-->
+    <main>
+      <!-- First Section: About -->
+      <section id="about" class="section scrollspy">
+        <div class="container">
+          <div class="col-md-9">
+            <div class="content section-padding valign">
+              <div class="caption">
+                <h3 class="greetings">
+                  Hi, This is <span style="font-weight: 600">Rafid.</span>
+                </h3>
+                <h5 style="color: #e1e8f5">
+                  A <span class="grey">Game Developer</span>
+                  <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+                  as well as an enthusiastic tinker who loves to solve puzzles,
+                  with an easy-to-adapt mentality and a curious mind.
+                </h5>
+              </div>
+              <div class="buttons">
+                <a href="#contact" class="contactme">Contact</a>
+                <a
+                  href="https://docs.google.com/document/d/1QT_QZmWflgze6jCmil7aB3Iq2Yrwa3C2cAD5QL68WPs/preview"
+                  target="_blank"
+                  class="viewme"
+                  >View Resume <i class="bi bi-eye-fill"></i
+                ></a>
+                <a
+                  href="https://docs.google.com/document/d/1QT_QZmWflgze6jCmil7aB3Iq2Yrwa3C2cAD5QL68WPs/export?format=pdf"
+                  target="_blank"
+                  class="viewme"
+                  >Download <i class="bi bi-file-earmark-arrow-down-fill"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <h3></h3>
-    </section>
+      </section>
 
-    <!-- Fifth Section: Tech I'm familiar with -->
-    <section id="skills" class="section scrollspy">
-      <div class="container">
-        <h4><span class="grey">Tools</span> i used</h4>
-        <!-- Languages and Databases -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row text-center">
-              <div class="col s4 m1">
-                <img alt="" src="/assets/img/unity.png" class="responsive-img" />Unity
-              </div>
-              <div class="col s4 m1">
-                <img alt="" src="/assets/img/ue.png" class="responsive-img" />Unreal Engine
-              </div>
-              <div class="col s4 m1">
-                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
-              </div>
-              <div class="col s4 m1">
-                <img alt="" src="/assets/img/plasticscm.png" class="responsive-img" />PlasticSCM
-              </div>
-              <div class="col s4 m1">
-                <img alt="" src="/assets/img/jira.png" class="responsive-img" />Jira
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text"><span class="grey">Portfolio</span></h3>
-      <div class="container">
-        <h4>Current</h4>
-        <h5>Fazza Royal Yantasir Simulasi</h5>
-        <div class="row">
-
-          <div class="col s12 m12 l6">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/shipweather.gif" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">SHS<i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  A desktop Ship Handling Simulator using VR headset for display and Azimuth Controller for input.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, C#</li>
-                  <li>Initiated and set up the project to source control (PlasticSCM).</li>
-                  <li>Set up scene, adjust light/shadows, adjust postprocessing, and some other tweaks.</li>
-                  <li>Implemented weather and time system.</li>
-                  <li>Implemented ocean water system.</li>
-                  <li>Implemented objective system.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m12 l6">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/fds.gif" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">FDS<i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  A full rig Driving Simulator with cockpit setup using steering wheel, gear shifter, and MotionSystems.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, C#</li>
-                  <li>Set up existing project files to source control (PlasticSCM).</li>
-                  <li>Test and optimize scenes. Combine meshes, readjust LODs, readjust light/shadows, readjust postprocessing, and some other tweaks.</li>
-                  <li>Added editor script to replace one level object with the other.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- -->
-        </div>
-        <!-- end of row -->
-      </div>
-      <!-- end of container -->
-      <div class="container">
-        <h4>Past</h4>
-        <div class="row">
-          
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/grid mdl.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Hyper Casual<i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  Developed 20+ games as part of MDL team and in collaboration with a few hyper casual publishers.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title white-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, C#</li>
-                  <li>Creates and tests stages for the games developed.</li>
-                  <li>Adjust game balance for the stages.</li>
-                  <li>Develop editor scripts to generate multiple stages based on game stage pattern.</li>
-                  <li>Assisted in creating the game design for the games developed.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/projectp.png"
-                style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Project P<i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  A 3D third-person hack and slash game set in a city park filled with homeless goblins
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title white-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, C#</li>
-                  <li>Create the game Map and Level Design, import and implement Environment assets, adjust Lighting</li>
-                  <li>Implemented the game VFX and post-processing</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>          
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/kago.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Kago<i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  A point and click narrative puzzle game, play as a cactus who's suddenly alive in a middle of desert.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title white-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity</li>
-                  <li>Implemented the game audio: BGM and SFX</li>
-                  <li>Implemented the game sequence/timeline audio</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/umbi.jpg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Umbi-umbian<i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  A 2D arcade game. React quickly  and use powerups to avoid obstacles, collect coins to unlock new characters.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title white-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, C#, Firebase Realtime-Database</li>
-                  <li>Implemented the user authentication system and database</li>
-                  <li>Develop the read-and-write leaderboard score script.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Download the game"
-                    href="https://play.google.com/store/apps/details?id=com.GnomStudios.UmbiumbiannTheGemu" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="waves-effect waves-light tooltipped"><i
-                      class="bi bi-link"></i></a>
+      <!-- TOOLS-->
+      <section id="skills" class="section scrollspy">
+        <div class="container">
+          <h4 class="page-title white-text"><span class="grey">Skills</span></h4>
+          <div class="card">
+            <div class="card-content">
+              <div class="row text-center">
+                <div class="col s4 m1">
+                  <img
+                    alt=""
+                    src="/assets/img/unity.png"
+                    class="responsive-img"
+                  />Unity
+                </div>
+                <div class="col s4 m1">
+                  <img
+                    alt=""
+                    src="/assets/img/ue.png"
+                    class="responsive-img"
+                  />Unreal Engine
+                </div>
+                <div class="col s4 m1">
+                  <img
+                    alt=""
+                    src="/assets/img/git.png"
+                    class="responsive-img"
+                  />Git
+                </div>
+                <div class="col s4 m1">
+                  <img
+                    alt=""
+                    src="/assets/img/plasticscm.png"
+                    class="responsive-img"
+                  />PlasticSCM
+                </div>
+                <div class="col s4 m1">
+                  <img
+                    alt=""
+                    src="/assets/img/jira.png"
+                    class="responsive-img"
+                  />Jira
                 </div>
               </div>
             </div>
           </div>
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/crumbrawl.gif" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Crumbrawl<i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  A quick prototype of a multiplayer game. Survive the crumbling island and fight against other player.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title white-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, Playmaker, Photon PUN 2 </li>
-                  <li>Set up the project using visual scripting: Playmaker, and implement Photon PUN for multiplayer.</li>
-                  <li>Develop the collapsing island, player movement, attack, and skills script.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </div>
+      </section>
 
-      <div class="container">
-        <h4>Self-Learning/Studies</h4>
-        <!-- Courses, Web Dev, Videography -->
-        <div class="row">
-          <!-- VQA -->
-          
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/courses1.gif" style="height: 50%; width: 100%" class="activator" />
-                <img alt="Screenshot of  web app" src="/assets/img/courses2.gif" style="height: 50%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Online Courses</span>
-                <p>
-                  Side activities other than work. Some of them are: Unreal Engine C++, Unity VR, Procedural Animation, Shader, and VFX.
-                </p>
+      <!-- Fourth Section: Projects -->
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text">
+          <span class="grey">Portfolio</span>
+        </h3>
+        <div class="container">
+          <h4>Current</h4>
+          <h5>Fazza Royal Yantasir Simulasi</h5>
+          <div class="row">
+            <div class="col s12 m12 l6">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="music streaming app"
+                    src="/assets/img/shipweather.gif"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >SHS<i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    A desktop Ship Handling Simulator using VR headset for
+                    display and Azimuth Controller for input.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title grey-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, C#</li>
+                    <li>
+                      Initiated and set up the project to source control
+                      (PlasticSCM).
+                    </li>
+                    <li>
+                      Set up scene, adjust light/shadows, adjust postprocessing,
+                      and some other tweaks.
+                    </li>
+                    <li>Implemented weather and time system.</li>
+                    <li>Implemented ocean water system.</li>
+                    <li>Implemented objective system.</li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/uefn1.gif" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Panjat Giant Pinang<i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  A quick prototype of platformer game made using UEFN when it first launched.
-                </p>
+            <div class="col s12 m12 l6">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="quiz app"
+                    src="/assets/img/fds.gif"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >FDS<i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    A full rig Driving Simulator with cockpit setup using
+                    steering wheel, gear shifter, and MotionSystems.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title grey-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, C#</li>
+                    <li>
+                      Set up existing project files to source control
+                      (PlasticSCM).
+                    </li>
+                    <li>
+                      Test and optimize scenes. Combine meshes, readjust LODs,
+                      readjust light/shadows, readjust postprocessing, and some
+                      other tweaks.
+                    </li>
+                    <li>
+                      Added editor script to replace one level object with the
+                      other.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
+
+            <!-- -->
           </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/balarunta.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Balarunta <span class="univ">univ-project</span> <i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  A thesis project made for my bachelor's degree. Waste collection app with a pet simulation feature.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title white-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, C#, Firebase Realtime-Database</li>
-                  <li>Ristekbrin CPPBT 2020 Finalist, Technology Category (National Campus Innovation Funding Program)</li>
-                  <li>Animate the character </li>
-                  <li>Supervise the art and UI assets</li>
-                  <li>Developed the game, android app and set up database connection</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/protectean.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Protectean <span class="univ">univ-project</span> <i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  Inspired by feeding frenzy where you play as a trash-eating slime to save the ocean. 
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title white-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, C#</li>
-                  <li>Created the game design and UI</li>
-                  <li>Create and animate the character</li>
-                  <li>Developed the game mechanics</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/hfmap.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Hunter Forest <span class="univ">univ-project</span><i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                   Play as a hunter and clear the forest from monsters
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title white-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, Unity Tile Pallet</li>
-                  <li>Created the Map and Level Design.</li>
-                  <li>Participated in making the game design.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/bbb.gif" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Brutal Boss Battle <span class="univ">univ-project</span> <i
-                    class="bi bi-three-dots right"></i></span>
-                <p>
-                  A boss battle game where you must defeat the enemy before the floor crumbles.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                <span class="card-title white-text"><small>Accomplishments</small><i
-                    class="bi bi-x right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Unity, Adobe Illustrator</li>
-                  <li>Responsible for the UX design and UI design of the game.</li>
-                  <li>Participated in making the game design.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-          
+          <!-- end of row -->
         </div>
-      </div>
+        <!-- end of container -->
+        <div class="container">
+          <h4>Past</h4>
+          <div class="row">
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/grid mdl.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Hyper Casual<i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    Developed 20+ games as part of MDL team and in collaboration
+                    with a few hyper casual publishers.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title white-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, C#</li>
+                    <li>Creates and tests stages for the games developed.</li>
+                    <li>Adjust game balance for the stages.</li>
+                    <li>
+                      Develop editor scripts to generate multiple stages based
+                      on game stage pattern.
+                    </li>
+                    <li>
+                      Assisted in creating the game design for the games
+                      developed.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
-      <div class="container">
-        <h4>Other</h4>
-        <!-- Courses, Web Dev, Videography -->
-        <div class="row">
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/traffictraveller.gif" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Traffic Traveller <span class="univ">univ-project</span></span>
-                <p>
-                  A 4-player board game where you must compete to reach the finish using dice and cards.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/artbook.gif" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Mini Art Book <span class="univ">univ-project</span></span>
-                <p>
-                  A concept art about pirate crew made of fruits and vegetable in a mission of finding a sacred tree.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/web.gif" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Wedding Invitation Web</span>
-                <p>
-                  Side projects of web development for online wedding invitation
-                </p>
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of web app"
+                    src="/assets/img/projectp.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Project P<i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    A 3D third-person hack and slash game set in a city park
+                    filled with homeless goblins
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title white-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, C#</li>
+                    <li>
+                      Create the game Map and Level Design, import and implement
+                      Environment assets, adjust Lighting
+                    </li>
+                    <li>Implemented the game VFX and post-processing</li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/video4.gif" style="height: 100%; width: 100%" class="activator" />
+
+            <!-- VQA -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/kago.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Kago<i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    A point and click narrative puzzle game, play as a cactus
+                    who's suddenly alive in a middle of desert.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title white-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity</li>
+                    <li>Implemented the game audio: BGM and SFX</li>
+                    <li>Implemented the game sequence/timeline audio</li>
+                  </ul>
+                </div>
               </div>
-              <div class="card-content">
-                <span class="card-title activator white-text hoverline">Photo-Videography</span>
-                <p>
-                  Side projects of Photography, Videography, and Drone Videography
-                </p>
-              </div>              
+            </div>
+
+            <!-- VQA -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/umbi.jpg"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Umbi-umbian<i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    A 2D arcade game. React quickly and use powerups to avoid
+                    obstacles, collect coins to unlock new characters.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title white-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, C#, Firebase Realtime-Database</li>
+                    <li>
+                      Implemented the user authentication system and database
+                    </li>
+                    <li>
+                      Develop the read-and-write leaderboard score script.
+                    </li>
+                  </ul>
+                  <div class="card-action">
+                    <a
+                      aria-label="Download the game"
+                      href="https://play.google.com/store/apps/details?id=com.GnomStudios.UmbiumbiannTheGemu"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="waves-effect waves-light tooltipped"
+                      ><i class="bi bi-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- VQA -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/crumbrawl.gif"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Crumbrawl<i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    A quick prototype of a multiplayer game. Survive the
+                    crumbling island and fight against other player.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title white-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, Playmaker, Photon PUN 2</li>
+                    <li>
+                      Set up the project using visual scripting: Playmaker, and
+                      implement Photon PUN for multiplayer.
+                    </li>
+                    <li>
+                      Develop the collapsing island, player movement, attack,
+                      and skills script.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy">
-      <h3 class="page-title white-text"><span class="grey">Contact</span></h3>
-      <div class="container">
-        <p>
-          <a aria-label="Email" href="mailto:rafidmuqsith@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email"
-            class="waves-effect waves-light tooltipped">
-            <i class="bi bi-envelope"></i>
-            <a aria-label="Email " href="mailto:rafidmuqsith@gmail.com"
-              class="hoverline"> rafidmuqsith@gmail.com</a></a>
-        </p>
-        <p>
-          <a aria-label="View  on LinkedIn" href="https://www.linkedin.com/in/rafidmuqsith/" target="_blank"
-            data-position="top" data-tooltip="View  on LinkedIn"
-            class="waves-effect waves-light tooltipped">
-            <i class="bi bi-linkedin"> </i>
-            <a aria-label=" on LinkedIn" href="https://www.linkedin.com/in/rafidmuqsith/"
-              class="hoverline" target="_blank"> Muhammad Rafid Muqsith</a></a>
-        </p>
-        <p>
-        </p> 
-      </div>
-    </section>
-  
-  </main>
+        <div class="container">
+          <h4>Self-Learning/Studies</h4>
+          <!-- Courses, Web Dev, Videography -->
+          <div class="row">
+            <!-- VQA -->
 
-  <script>
-    // Get the button
-    let mybutton = document.getElementById("myBtn");
-    
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/courses1.gif"
+                    style="height: 50%; width: 100%"
+                    class="activator"
+                  />
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/courses2.gif"
+                    style="height: 50%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Online Courses</span
+                  >
+                  <p>
+                    Side activities other than work. Some of them are: Unreal
+                    Engine C++, Unity VR, Procedural Animation, Shader, and VFX.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/uefn1.gif"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Panjat Giant Pinang<i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    A quick prototype of platformer game made using UEFN when it
+                    first launched.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/balarunta.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Balarunta <span class="univ">univ-project</span>
+                    <i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    A thesis project made for my bachelor's degree. Waste
+                    collection app with a pet simulation feature.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title white-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, C#, Firebase Realtime-Database</li>
+                    <li>
+                      Ristekbrin CPPBT 2020 Finalist, Technology Category
+                      (National Campus Innovation Funding Program)
+                    </li>
+                    <li>Animate the character</li>
+                    <li>Supervise the art and UI assets</li>
+                    <li>
+                      Developed the game, android app and set up database
+                      connection
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- VQA -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/protectean.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Protectean <span class="univ">univ-project</span>
+                    <i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    Inspired by feeding frenzy where you play as a trash-eating
+                    slime to save the ocean.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title white-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, C#</li>
+                    <li>Created the game design and UI</li>
+                    <li>Create and animate the character</li>
+                    <li>Developed the game mechanics</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- VQA -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/hfmap.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Hunter Forest <span class="univ">univ-project</span
+                    ><i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>Play as a hunter and clear the forest from monsters</p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title white-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, Unity Tile Pallet</li>
+                    <li>Created the Map and Level Design.</li>
+                    <li>Participated in making the game design.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- VQA -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/bbb.gif"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Brutal Boss Battle <span class="univ">univ-project</span>
+                    <i class="bi bi-three-dots right"></i
+                  ></span>
+                  <p>
+                    A boss battle game where you must defeat the enemy before
+                    the floor crumbles.
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
+                  <span class="card-title white-text"
+                    ><small>Accomplishments</small><i class="bi bi-x right"></i
+                  ></span>
+                  <ul>
+                    <li><b>Tools:</b> Unity, Adobe Illustrator</li>
+                    <li>
+                      Responsible for the UX design and UI design of the game.
+                    </li>
+                    <li>Participated in making the game design.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <h4>Other</h4>
+          <!-- Courses, Web Dev, Videography -->
+          <div class="row">
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/traffictraveller.gif"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Traffic Traveller
+                    <span class="univ">univ-project</span></span
+                  >
+                  <p>
+                    A 4-player board game where you must compete to reach the
+                    finish using dice and cards.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/artbook.gif"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Mini Art Book <span class="univ">univ-project</span></span
+                  >
+                  <p>
+                    A concept art about pirate crew made of fruits and vegetable
+                    in a mission of finding a sacred tree.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/web.gif"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Wedding Invitation Web</span
+                  >
+                  <p>
+                    Side projects of web development for online wedding
+                    invitation
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Screenshot of  web app"
+                    src="/assets/img/video4.gif"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator white-text hoverline"
+                    >Photo-Videography</span
+                  >
+                  <p>
+                    Side projects of Photography, Videography, and Drone
+                    Videography
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Eight Section: Contact -->
+      <section id="contact" class="section scrollspy" style="height: 80vh;">
+        <h3 class="page-title white-text"><span class="grey">Contact</span></h3>
+        <div class="container">
+          <p>Muhammad Rafid Muqsith</p>
+          <p>Tangerang, Banten</p>
+          <p>Indonesia</p>
+          <p style="margin-top: 50px;">
+            <a
+              aria-label="Email"
+              href="mailto:rafidmuqsith@gmail.com"
+              target="_blank"
+              data-position="top"
+              data-tooltip="Email"
+              class="tooltipped"
+            >
+              <i class="bi bi-envelope"></i>
+              <a
+                aria-label="Email "
+                href="mailto:rafidmuqsith@gmail.com"
+                class="hoverline"
+              >
+                Email</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View  on LinkedIn"
+              href="https://www.linkedin.com/in/rafidmuqsith/"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View  on LinkedIn"
+              class="tooltipped"
+            >
+              <i class="bi bi-linkedin"> </i>
+              <a
+                aria-label=" on LinkedIn"
+                href="https://www.linkedin.com/in/rafidmuqsith/"
+                class="hoverline"
+                target="_blank"
+              >
+                LinkedIn</a
+              ></a
+            >
+          </p>
+          <p></p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
       }
-    }
-    
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
 
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
-  </script>
-</body>
-
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function () {
+        $(".scrollspy").scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        });
+      });
+    </script>
+  </body>
+  <footer class="footer">
+    
+    <ul>
+      <li>&copy; Muhammad Rafid Muqsith, 2024</li>
+    </ul>
+  </footer>
 </html>
