@@ -165,7 +165,7 @@ hr.title{
 body {
   color: #E1E8F5;
   background-color: #191E29;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 /* body {
@@ -431,7 +431,7 @@ h3 {
 
 .card {
   box-shadow: none;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   background-color: #191E29;
 }
 
@@ -508,7 +508,7 @@ h3 {
 }
 
 .card .card-title {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .card .card-content .card-title {
@@ -681,8 +681,13 @@ small {
     margin-bottom: 40px;
   }
   h4 {
-    padding: 20px 30px;
-    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 10px 10px 10px 0px;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 1.4rem;
   }
   .container {
     margin: 0 auto 80px;
