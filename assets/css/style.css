@@ -130,6 +130,7 @@ hr.title{
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1em;
+  margin-right: 5px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
@@ -150,6 +151,7 @@ hr.title{
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1.5em;
+  margin-right: 10px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
@@ -166,6 +168,20 @@ body {
   color: #E1E8F5;
   background-color: #191E29;
   font-size: 12px;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: #191E29;
+  color: #E1E8F5;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
 }
 
 /* body {
@@ -260,7 +276,7 @@ dt {
 }
 
 ul.side-nav {
-  width: 60px;
+  width: 45px;
   background-color: #0B0E14;
   box-shadow: none;
 }
@@ -339,13 +355,13 @@ li.logo span {
 
 h3 {
   font-weight: 600;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   margin-top: 0;
   padding: 30px 40px;
 }
 
 .section {
-  padding-bottom: 30px;
+  padding-bottom: 0;
   padding-top: 0;
   position: relative;
 }
@@ -369,7 +385,9 @@ h3 {
 }
 
 .greetings{
-  margin-top: 40px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  padding-left: 0;
 }
 
 /* Original */
@@ -537,12 +555,17 @@ a.hoverline:hover {
   border-bottom: 3px solid #6f6f6f !important;
 }
 
+#contact p {
+  font-size: 14px;
+}
+
 #skills .card.large {
   height: 360px;
 }
 
 #skills h4 {
-  margin-bottom: 30px;
+  padding-top: 50px;
+  margin-bottom: 50px;
   padding-bottom: 20px;
 }
 
@@ -584,7 +607,7 @@ a.hoverline:hover {
 
 #contact a:not(.btn-floating) {
   bottom: 6px;
-  left: 20px;
+  left: 0;
   position: relative;
 }
 
@@ -678,7 +701,7 @@ small {
   }
   h3 {
     padding: 20px 30px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   h4 {
     font-weight: 600;
@@ -721,7 +744,6 @@ small {
   }
   h3, .container {
     position: relative;
-    top: 64px;
   }
   section#intro {
     margin-bottom: -64px;
@@ -759,7 +781,7 @@ small {
   }
   #contact a:not(.btn-floating) {
     text-align: center;
-    display: block;
+    display: inline-block;
     left: initial;
     bottom: initial;
   }
