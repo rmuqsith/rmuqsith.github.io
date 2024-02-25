@@ -28,14 +28,6 @@
   right: 0;
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Poppins);
-.social {
-  margin: 0 auto;
-  width: auto;
-  text-align: inherit;
-  /* padding: 10px; */
-}
-
 hr.title{
   margin-top: -10px;
   margin-bottom: 50px;
@@ -231,7 +223,7 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: #E1E8F5;
+  background: #191E29;
   box-shadow: none;
   height: 0;
 }
@@ -693,7 +685,7 @@ small {
     width: 100%;
   }
   nav {
-    background: #E1E8F5;
+    background: #191E29;
     height: 64px;
     position: absolute;
   }
