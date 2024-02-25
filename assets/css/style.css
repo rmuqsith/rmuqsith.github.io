@@ -382,6 +382,7 @@ h3 {
 .row .col.s4{
   margin-left: 35px;
   margin-bottom: 10px;
+  width: auto;
 }
 
 .greetings{
