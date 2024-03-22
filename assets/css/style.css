@@ -84,7 +84,7 @@ hr.title{
 
 .univ {
   position: relative;
-  padding: 0px 5px;
+  padding: 6px 5px;
   margin-left: 10px;
   top: -2px;
   background: #6f6f6f;
@@ -92,8 +92,20 @@ hr.title{
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0px;
-  display: inline-block;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.year {
+  position: relative;
+  padding: 6px 5px;
+  margin-left: 5px;
+  top: -2px;
+  background: #4c4963;
+  color: #E1E8F5;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0px;
   -webkit-border-radius: 5px;
 }
 
