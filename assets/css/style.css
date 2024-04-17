@@ -84,10 +84,66 @@ hr.title{
 
 .univ {
   position: relative;
-  padding: 6px 5px;
-  margin-left: 10px;
-  top: -2px;
+  padding: 0px 10px 0px 10px;
+  margin-left: 0px;
+  top: 10px;
   background: #6f6f6f;
+  color: #E1E8F5;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.frys {
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  margin-left: 0px;
+  top: 10px;
+  background: #428fad;
+  color: #E1E8F5;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.gnom {
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  margin-left: 0px;
+  top: 10px;
+  background: #1da551;
+  color: #E1E8F5;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mdl {
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  margin-left: 0px;
+  top: 10px;
+  background: #a16c26;
+  color: #E1E8F5;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.solo {
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  margin-left: 0px;
+  top: 10px;
+  background: #943636;
   color: #E1E8F5;
   font-weight: 400;
   font-size: 12px;
@@ -98,9 +154,9 @@ hr.title{
 
 .year {
   position: relative;
-  padding: 6px 5px;
-  margin-left: 5px;
-  top: -2px;
+  padding: 0px 10px 0px 10px;
+  margin-left: 0px;
+  top: 10px;
   background: #4c4963;
   color: #E1E8F5;
   font-weight: 400;
@@ -535,7 +591,7 @@ h3 {
 }
 
 .card .card-content .card-title {
-  line-height: 2.5rem;
+  line-height: 1.75rem;
 }
 
 .card i.right {
