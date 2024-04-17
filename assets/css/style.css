@@ -383,10 +383,8 @@ h3 {
   background-color: #0B0E14;
 }
 
-.row .col.s4{
-  margin-left: 35px;
-  margin-bottom: 10px;
-  width: auto;
+.row .col.s5{
+  margin-bottom: 20px;
 }
 
 .greetings{
@@ -687,6 +685,9 @@ small {
 }
 
 @media (max-width: 992px) {
+  .contactme{
+    margin-top: 4em;
+  }
   main {
     padding-left: 0px;
     padding-top: 64px;
