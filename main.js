@@ -113,11 +113,7 @@ class PortoButtons extends HTMLElement{
 class PortoButtonsHome extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-        <div>
-          <div class="card">
-            <div class="card-content">
-              <div class="row">
-                <div class="buttons">
+        
                   <a href="/portfolio/game-design" class="linebutton">
                     Game Design
                     <i class="bi bi-joystick"></i>
@@ -134,11 +130,6 @@ class PortoButtonsHome extends HTMLElement{
                     Misc
                     <i class="bi bi-collection-fill"></i>
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         `
     }
 }

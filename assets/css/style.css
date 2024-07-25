@@ -99,8 +99,8 @@ hr.title{
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 
   /* padding: 11px 20px; */
 }
@@ -120,8 +120,8 @@ hr.title{
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .frys {
@@ -134,8 +134,8 @@ hr.title{
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .gnom {
@@ -148,8 +148,8 @@ hr.title{
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .mdl {
@@ -162,8 +162,8 @@ hr.title{
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .solo {
@@ -176,8 +176,8 @@ hr.title{
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .wip {
@@ -190,8 +190,8 @@ hr.title{
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .year {
@@ -204,8 +204,8 @@ hr.title{
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .resume {
@@ -218,8 +218,8 @@ hr.title{
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .fillbutton {
@@ -234,8 +234,8 @@ hr.title{
   display: inline-block;
   margin-top: 1em;
   margin-right: 10px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .fillbutton:hover{
@@ -255,8 +255,8 @@ hr.title{
   display: inline-block;
   margin-top: 1.5em;
   margin-right: 10px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .linebutton:hover{
@@ -273,11 +273,12 @@ hr.title{
   font-size: 14px;
   display: inline-block;
   margin: 10px 20px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
 
 .bot-button:hover{
+  color: #585858;
   text-decoration-line: underline;
 }
 
@@ -487,6 +488,9 @@ li.logo span {
 h3 {
   font-size: 2.3rem;
   font-weight: 600;
+}
+h5 {
+  line-height: 2rem;
 }
 
 .section {
