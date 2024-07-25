@@ -1,0 +1,193 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-GSGW2SF5MG"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-GSGW2SF5MG");
+    </script>
+    <script type=module src=main.js></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+
+    <!-- Materialize - Compiled and minified CSS-->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
+    />
+    <!-- Icon - CSS-->
+
+    <!-- Custom Styles-->
+    <link rel="icon" href="../assets/img/icon-negative-black.png" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Rafid Muqsith</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Google Site Verification for indexing -->
+    <!-- <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" /> -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+
+    <!-- Navigation Menu-->
+    <!-- Nav class 1 -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      &#8593;
+    </button>
+
+    <nav-sidebar></nav-sidebar>
+
+    <!-- Main Content-->
+    <main>
+        <!-- Section: Contact -->
+      <section id="contact" class="section scrollspy" style="height: 50vh">
+        <h3 class="page-title white-text"><span class="grey">Contact</span></h3>
+        <div class="container">
+          <p>Muhammad Rafid Muqsith</p>
+          <p>Tangerang, Banten</p>
+          <p>Indonesia</p>
+          <p style="margin-top: 50px">
+            <a
+              aria-label="Email"
+              href="mailto:rafidmuqsith@gmail.com"
+              target="_blank"
+              data-position="top"
+              data-tooltip="Email"
+              class="tooltipped"
+            >
+              <i class="bi bi-envelope-fill"></i>
+              <a
+                aria-label="Email "
+                href="mailto:rafidmuqsith@gmail.com"
+                class="hoverline"
+              >
+                Email</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View  on LinkedIn"
+              href="https://www.linkedin.com/in/rafidmuqsith/"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View  on LinkedIn"
+              class="tooltipped"
+            >
+              <i class="bi bi-linkedin"> </i>
+              <a
+                aria-label=" on LinkedIn"
+                href="https://www.linkedin.com/in/rafidmuqsith/"
+                class="hoverline"
+                target="_blank"
+              >
+                LinkedIn</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View  on Discord"
+              href="https://discordapp.com/users/253157608985198592"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View  on Discord"
+              class="tooltipped"
+            >
+              <i class="bi bi-discord"> </i>
+              <a
+                aria-label=" on Discord"
+                href="https://discordapp.com/users/253157608985198592"
+                class="hoverline"
+                target="_blank"
+              >
+                Discord</a
+              ></a
+            >
+          </p>
+          <p></p>
+        </div>
+      </section>
+      
+      <section style="padding-left: 0px;">
+        <porto-buttons></porto-buttons>
+      </section>
+    </main>
+
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js" integrity="sha512-W/yuNCM1RPzKkcgv0C+ppauVlcEdgMdPu+WlrUoIOLsr/QCsq0cvY1gWTtGVkWWrLwhq2hwOAYgtr2LHHLV2fw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function () {
+        $(".scrollspy").scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        });
+      });
+    </script>
+  </body>
+  <footer class="footer">
+    <ul>
+      <li>&copy; Muhammad Rafid Muqsith, 2024</li>
+    </ul>
+  </footer>
+</html>

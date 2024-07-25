@@ -1,1114 +1,168 @@
 <!-- <!DOCTYPE html> -->
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-GSGW2SF5MG"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GSGW2SF5MG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-GSGW2SF5MG");
+  </script>
+  <script type=module src=main.js></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Icon - CSS-->
+
+  <!-- Custom Styles-->
+  <link rel="icon" href="../assets/img/icon-negative-black.png" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Rafid Muqsith</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Google Site Verification for indexing -->
+  <!-- <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" /> -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    &#8593;
+  </button>
+
+  <nav-sidebar></nav-sidebar>
+
+  <!-- Main Content-->
+  <main>
+    <!-- Section: About -->
+    <section id="about" class="section scrollspy">
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign">
+            <div class="caption">
+              <h3 class="greetings">
+                Hi, I'm <span style="font-weight: 600">Rafid.</span>
+              </h3>
+              <h5 style="color: #e1e8f5">
+                A <span class="grey">Game Developer</span>
+                <!-- and an aspiring Technical Designer. -->
+                <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+                with interests in Level Design, Prototyping,<br>
+                and other Game Design technical related stuffs.
+              </h5>
+              <h6>
+                I also love to explore around node-based shader development, level art, VFX creation, and tools
+                development.
+              </h6>
+            </div>
+            <div class="buttons">
+              </a>
+              <a href="../contact" class="linebutton">
+                Contact
+              </a>
+              <a href="https://docs.google.com/document/d/1QT_QZmWflgze6jCmil7aB3Iq2Yrwa3C2cAD5QL68WPs/preview"
+                target="_blank" class="fillbutton">Preview CV <i class="bi bi-eye-fill"></i></a>
+              <a href="https://docs.google.com/document/d/1QT_QZmWflgze6jCmil7aB3Iq2Yrwa3C2cAD5QL68WPs/export?format=pdf"
+                target="_blank" class="fillbutton">Download CV <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section: TOOLS-->
+    <section id="skills" class="section scrollspy" style="margin-top: 80px; margin-bottom: 200px;">
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign">
+            <div class="caption">
+              <h5>
+                Portfolios:
+              </h5>
+            </div>
+            <div class="buttons">
+              <porto-buttons-home></porto-buttons-home>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
       }
-      gtag("js", new Date());
+    }
 
-      gtag("config", "G-GSGW2SF5MG");
-    </script>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width initial-scale=1" />
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
 
-    <!-- Materialize - Compiled and minified CSS-->
-    <link
-      rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
-    />
-    <!-- Icon - CSS-->
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-    <!-- Custom Styles-->
-    <link rel="icon" href="assets/img/icon-negative-black.png" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <title>Rafid Muqsith</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-    </style>
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <!-- Google Site Verification for indexing -->
-    <!-- <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" /> -->
-  </head>
-
-  <body>
-    <!-- Google Tag Manager (noscript) -->
-
-    <!-- Navigation Menu-->
-    <!-- Nav class 1 -->
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-      &#8593;
-    </button>
-
-    <nav class="hide-on-small-only">
-      <ul class="side-nav fixed section table-of-contents">
-        <li class="bold">
-          <a
-            aria-label="Navigate to the About section"
-            href="#about"
-            class="waves-effect waves-dark white-text"
-            ><i class="bi bi-person-fill"></i
-          ></a>
-        </li>
-
-        <li class="bold">
-          <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-          <a
-            aria-label="Navigate to the Projects section"
-            href="#projects"
-            class="waves-effect waves-dark white-text"
-            ><i class="bi bi-collection-fill"></i
-          ></a>
-        </li>
-
-        <li class="bold">
-          <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-          <a
-            aria-label="Navigate to the Projects section"
-            href="#skills"
-            class="waves-effect waves-dark white-text"
-            ><i class="bi bi-hammer"></i
-          ></a>
-        </li>
-
-        <li class="bold">
-          <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-          <a
-            aria-label="Navigate to the Projects section"
-            href="#contact"
-            class="waves-effect waves-dark white-text"
-            ><i class="bi bi-card-text"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Main Content-->
-    <main>
-      <!-- First Section: About -->
-      <section id="about" class="section scrollspy">
-        <div class="container">
-          <div class="col-md-9">
-            <div class="content section-padding valign">
-              <div class="caption">
-                <h3 class="greetings">
-                  Hi, I'm <span style="font-weight: 600">Rafid.</span>
-                </h3>
-                <h5 style="color: #e1e8f5">
-                  A <span class="grey">Game Developer</span>
-                  <!-- and an aspiring Technical Designer. -->
-                  <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-                  with interests in prototyping, node-based shader development, level design, level art, VFX creation, and tools development. 
-                </h5>
-              </div>
-              <div class="buttons">
-                <a href="#contact" class="contactme">Contact</a>
-                <a
-                  href="https://docs.google.com/document/d/1QT_QZmWflgze6jCmil7aB3Iq2Yrwa3C2cAD5QL68WPs/preview"
-                  target="_blank"
-                  class="viewme"
-                  >Preview CV <i class="bi bi-eye-fill"></i
-                ></a>
-                <a
-                  href="https://docs.google.com/document/d/1QT_QZmWflgze6jCmil7aB3Iq2Yrwa3C2cAD5QL68WPs/export?format=pdf"
-                  target="_blank"
-                  class="viewme"
-                  >Download CV <i class="bi bi-file-earmark-arrow-down-fill"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Fourth Section: Projects -->
-      <section id="projects" class="section scrollspy">
-        <h3 class="page-title white-text">
-          <span class="grey">Portfolio</span>
-        </h3>
-        <div class="container">
-          <h4>Recent</h4>
-          <div class="row">
-            
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light activator">
-                  <iframe
-                    src="https://drive.google.com/file/d/1ydqSLQqSO7I0t5KOamSa4kBnNbaLRIkF/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Project SD
-                  </i>
-                  <i class="bi bi-list-ul right"></i>
-                  <a href="https://docs.google.com/document/d/1pmkRbpKog_3FGQuibp44hWw66e-5AWWhy7X8oeuBntE/view" target="_blank" title="docs">
-                    <i class="bi bi-file-earmark-text-fill right"></i></a>
-                </span>
-                  <p>
-                    An ongoing development platformer game made in UE5. 
-                  </p>
-                  <span class="solo">solo</span>
-                  <span class="wip">wip</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unreal Engine 5, Unreal Engine Blueprint, VRoid</li>
-                    <li>
-                      Animation from ALS4, Mixamo, and some made manually using Control Rig.
-                    </li>
-                    <li>
-                      3D Assets from VRoid, Kenney.
-                    </li>
-                    <li>
-                    Implemented Idle-Walk-Run Blend Space, Dash, Wall Jump, and Mantle. 
-                    </li>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light activator">
-                  <iframe
-                    src="https://drive.google.com/file/d/1GPC4r7AkeM27zO79G8VORqd1Pqun8fRY/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Project F-16
-                    <i class="bi bi-list-ul right"></i></span>
-                  <p>
-                    An F-16 fighter jet simulator for the Indonesian Air Force, developed using SimBox SDK by SimiGon.
-                    Worked on some of the DED Pages.
-                  </p>
-                  <span
-                  data-position="top"
-                  data-tooltip="Fazza Royal Yantasir Simulasi" 
-                  class="frys tooltipped">frys</span>
-                  <span class="wip">wip</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools: </b>SimBox SDK, C++, Azure DevOps</li>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light activator">
-                  <iframe
-                    src="https://drive.google.com/file/d/1eEUWudPj26GLY2jdqrhB45dsc6Yrg1Le/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >SHS
-                    <i class="bi bi-list-ul right"></i></span>
-                  <p>
-                    A desktop Ship Handling Simulator using VR headset for
-                    display and Azimuth Controller for input.
-                  </p>
-                  <span
-                  data-position="top"
-                  data-tooltip="Fazza Royal Yantasir Simulasi" 
-                  class="frys tooltipped">frys</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, C#</li>
-                    <li>
-                      Initiated and set up the project to source control
-                      (PlasticSCM).
-                    </li>
-                    <li>
-                      Set up the Free Roam scene, adjust light/shadows, adjust postprocessing,
-                      and some other tweaks.
-                    </li>
-                    <li>Implemented weather and time system.</li>
-                    <li>Implemented ocean water system.</li>
-                    <li>Implemented objective system.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light activator">
-                  <iframe
-                    src="https://drive.google.com/file/d/1ChZnbGIa46btlfpWrA064llJ-NK9Uv6S/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >FDS <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>
-                    A full rig Driving Simulator with cockpit setup using
-                    steering wheel, gear shifter, and MotionSystems.
-                  </p>
-                  <span
-                  data-position="top"
-                  data-tooltip="Fazza Royal Yantasir Simulasi" 
-                  class="frys tooltipped">frys</span>
-                </div>
-                <div class="card-reveal">
-                  <!-- TODO: change this -- only close button -->
-                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                  <span class="card-title grey-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, C#</li>
-                    <li>
-                      Set up existing project files to source control
-                      (PlasticSCM).
-                    </li>
-                    <li>
-                      Optimized the Free Roam scene, increasing it FPS for about 50% by performing Profiling and Frame Debugging. Combine meshes, readjust LODs,
-                      readjust light/shadows, readjust postprocessing, and some
-                      other tweaks.
-                    </li>
-                    <li>
-                      Added editor script to replace multiple game objects with a single or a list of prefabs and preserve the previous Transform properties.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- -->
-          </div>
-          <!-- end of row -->
-        </div>
-        <!-- end of container -->
-        <div class="container">
-          <h4>Past</h4>
-          <div class="row">
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img
-                    alt="maentrus digital lab"
-                    src="/assets/img/grid mdl.png"
-                    style="height: 100%; width: 100%"
-                    class="activator"
-                  />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Hyper Casual
-                    <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>
-                    Developed 20+ games as part of MDL team and in collaboration
-                    with a few hyper casual publishers.
-                  </p>
-                  <span
-                  data-position="top"
-                  data-tooltip="Maentrus Digital Lab" 
-                  class="mdl tooltipped">mdl</span>
-                  <span class="year">2022-2023</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, C#</li>
-                    <li>Creates and tests stages for the games developed.</li>
-                    <li>Adjusted game balance for the stages.</li>
-                    <li>
-                      Developed editor scripts to procedurally generate multiple stages based
-                      on game stage pattern.
-                    </li>
-                    <li>
-                      Assisted in creating the game design for the games
-                      developed.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img
-                    alt="project p"
-                    src="/assets/img/projectp.png"
-                    style="height: 100%; width: 100%"
-                    class="activator"
-                  />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Project P
-                    <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>
-                    A 3D third-person hack and slash game set in a city park
-                    filled with homeless goblins
-                  </p>                  
-                  <span
-                  data-position="top"
-                  data-tooltip="Gnom Studios" 
-                  class="gnom tooltipped">gnom</span>
-                  <span class="year">2022</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, C#</li>
-                    <li>
-                      Created the game Map and Level Design, import and implement
-                      Environment assets, adjust Lighting and its ambient color.
-                    </li>
-                    <li>Implemented the game VFX and post-processing</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- VQA -->
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img
-                    alt="kago"
-                    src="/assets/img/kago.png"
-                    style="height: 100%; width: 100%"
-                    class="activator"
-                  />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Kago
-                    <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>
-                    A point and click narrative puzzle game, play as a cactus
-                    who's suddenly alive in a middle of desert.
-                  </p>
-                  <span
-                  data-position="top"
-                  data-tooltip="Gnom Studios" 
-                  class="gnom tooltipped">gnom</span>
-                  <span class="year">2021</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity</li>
-                    <li>Implemented the game audio: BGM and SFX</li>
-                    <li>Implemented the game sequence/timeline audio</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- VQA -->
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img
-                    alt="umbi umbian"
-                    src="/assets/img/umbi.jpg"
-                    style="height: 100%; width: 100%"
-                    class="activator"
-                  />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Umbi-umbian
-                    <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>
-                    A 2D arcade game. React quickly and use powerups to avoid
-                    obstacles, collect coins to unlock new characters.
-                  </p>
-                  <span
-                  data-position="top"
-                  data-tooltip="Gnom Studios" 
-                  class="gnom tooltipped">gnom</span>
-                  <span class="year">2021</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, C#, Firebase Realtime-Database</li>
-                    <li>
-                      Implemented the user authentication system and database
-                    </li>
-                    <li>
-                      Develop the read-and-write leaderboard score script.
-                    </li>
-                  </ul>
-                  <div class="card-action">
-                    <a
-                      aria-label="Download the game"
-                      href="https://play.google.com/store/apps/details?id=com.GnomStudios.UmbiumbiannTheGemu"
-                      target="_blank"
-                      data-position="top"
-                      data-tooltip="View Source"
-                      class="waves-effect waves-light tooltipped"
-                      ><i class="bi bi-link"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- VQA -->
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light activator">
-                  <iframe
-                    src="https://drive.google.com/file/d/1tg54PiO1g1YrpFq2F4VwCeWGg5-B8z4a/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Crumbrawl
-                    <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>
-                    A quick prototype of a multiplayer game. Survive the
-                    crumbling island and fight against other player.
-                  </p>
-                  <span class="solo">solo</span>
-                  <span
-                  data-position="top"
-                  data-tooltip="Gnom Studios" 
-                  class="gnom tooltipped">gnom</span>
-                  <span class="year">2021</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, Playmaker, Photon PUN 2</li>
-                    <li>
-                      Set up the project using visual scripting: Playmaker, and
-                      implement Photon PUN for multiplayer.
-                    </li>
-                    <li>
-                      Develop the collapsing island, player movement, attack,
-                      and skills script.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <h4>Self-Learning/Studies</h4>
-          <!-- Courses, Web Dev, Videography -->
-          <div class="row">
-            <!-- VQA -->
-            
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light activator">
-                  <iframe
-                    src="https://drive.google.com/file/d/1bR072dtCEBZhkNjCGBy2hp3wIEFnpaYA/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >UE5 Traversal & Combat
-                  </i>
-                  <i class="bi bi-list-ul right"></i></span>
-                  <p>
-                    A Character traversal and combat mechanic based on UE5 Manny Skeleton and implemented with MetaHuman character. 
-                  </p>
-                  <span class="solo">solo</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unreal Engine 5, Unreal Engine Blueprint</li>
-                    <li>
-                      Animation from ALS4 and Mixamo.
-                    </li>
-                    <li>
-                    Implemented 8D Movement, Crouch, Mouse-Look, Mantle, Strafe, Target Lock, and Combat Animation. 
-                    </li>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image">
-                  <iframe
-                    src="https://drive.google.com/file/d/1m92aQ3ZlCNNeQjRendE6FK_-4tAWT8x2/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title white-text hoverline"
-                    >Online Courses
-                    </span>
-                  </span>
-                  <p>
-                    Some recent topics: UE5 C++, Unity VR, UE Lighting Art, and UE Procedural Animation.
-                  </p>
-                  <span class="solo">solo
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image">
-                  <iframe
-                    src="https://drive.google.com/file/d/1MsdVn8-XoEZ1iHlZH4wRmeuvtuWao5XC/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title white-text hoverline"
-                    >Shader, Material, and VFX
-                  </span>
-                  <p>
-                    Some small projects using Unity ShaderGraph, Unity ParticleSystem, UE5 Material, and UE5 Niagara System
-                  </p>
-                  <span class="solo">solo</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image">
-                  <iframe
-                    src="https://drive.google.com/file/d/19Hsz5av3jNb6vBqkrMQhCEL82c92PwgY/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title white-text hoverline"
-                    >Panjat Giant Pinang</i></span>
-                  <p>
-                    A quick prototype of platformer game made using UEFN when it
-                    first launched.
-                  </p>
-                  <span class="solo">solo</span>
-                  <span class="year">2023</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img
-                    alt="balarunta"
-                    src="/assets/img/balarunta.png"
-                    style="height: 100%; width: 100%"
-                    class="activator"
-                  />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Balarunta 
-                    <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>
-                    A thesis project made for my bachelor's degree. Waste
-                    collection app with a pet simulation feature.
-                  </p>
-                  <span class="univ">univ-project</span>
-                  <span class="year">2020</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, C#, Firebase Realtime-Database</li>
-                    <li>
-                      Ristekbrin CPPBT 2020 Finalist, Technology Category
-                      (National Campus Innovation Funding Program)
-                    </li>
-                    <li>Animate the character</li>
-                    <li>Supervise the art and UI assets</li>
-                    <li>
-                      Developed the game, android app and set up database
-                      connection
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- VQA -->
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img
-                    alt="protectean"
-                    src="/assets/img/protectean.png"
-                    style="height: 100%; width: 100%"
-                    class="activator"
-                  />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Protectean
-                    <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>
-                    Inspired by feeding frenzy where you play as a trash-eating
-                    slime to save the ocean.
-                  </p>
-                  <span class="univ">univ-project</span>
-                  <span class="solo">solo</span>
-                  <span class="year">2020</span>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, C#</li>
-                    <li>Created the game design and UI</li>
-                    <li>Create and animate the character</li>
-                    <li>Developed the game mechanics</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- VQA -->
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img
-                    alt="hunter forest"
-                    src="/assets/img/hfmap.png"
-                    style="height: 100%; width: 100%"
-                    class="activator"
-                  />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Hunter Forest 
-                    <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>Play as a hunter and clear the forest from monsters</p>
-                  <span class="univ">univ-project</span>
-                  <span class="year">2020</span>
-                </div>
-                <div class="card-reveal">
-                  <!-- TODO: change this -- only close button -->
-                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, Unity Tile Pallet</li>
-                    <li>Created the Map and Level Design.</li>
-                    <li>Participated in making the game design.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- VQA -->
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light activator">
-                  <iframe
-                    src="https://drive.google.com/file/d/1OVOQ38xT27FhkfjbMJoVLw19FrnS-0Lh/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator white-text hoverline"
-                    >Brutal Boss Battle
-                    <i class="bi bi-list-ul right"></i
-                  ></span>
-                  <p>
-                    A boss battle game where you must defeat the enemy before
-                    the floor crumbles.
-                  </p>
-                  <span class="univ">univ-project</span>
-                  <span class="year">2018</span>
-                </div>
-                <div class="card-reveal">
-                  <!-- TODO: change this -- only close button -->
-                  <!-- <span class="card-title white-text">Accomplishments<i class="bi bi-x right"></i></span> -->
-                  <span class="card-title white-text"
-                    ><i class="bi bi-x right" style="font-size: 3rem;"></i
-                  ></span>
-                  <ul>
-                    <li><b>Tools:</b> Unity, Adobe Illustrator</li>
-                    <li>
-                      Responsible for the UX design and UI design of the game.
-                    </li>
-                    <li>Participated in making the game design.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <h4>Other</h4>
-          <!-- Courses, Web Dev, Videography -->
-          <div class="row">
-
-            
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image">
-                  <iframe
-                    src="https://drive.google.com/file/d/1ID8k1gMyzKAeoIn41WFbzoZkCRqpDXW2/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title white-text hoverline"
-                    >Traffic Traveller
-                  </span>
-                  <p>
-                    A 4-player board game where you must compete to reach the
-                    finish using dice and cards.
-                  </p>
-                  <span class="univ">univ-project</span>
-                  <span class="year">2017</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image">
-                  <iframe
-                    src="https://drive.google.com/file/d/1Hd3l7JvfY-sPycU8aAshzeDAZ5idbA6f/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title white-text hoverline"
-                    >Mini Art Book
-                  </span>
-                  <p>
-                    A concept art about pirate crew made of fruits and vegetable
-                    in a mission of finding a sacred tree.
-                  </p>
-                  <span class="univ">univ-project</span>
-                  <span class="year">2017</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l4">
-              <div class="card medium">
-                <div class="card-image">
-                  <iframe
-                    src="https://drive.google.com/file/d/10SEKRe6fk7iTfuWyW4We5e3hpz_9soNM/preview" 
-                    style="height: 100%; width: 100%; "
-                    frameborder="0" scrolling="no" seamless="" 
-                    allow="autoplay" >
-                  </iframe>
-                </div>
-                <div class="card-content">
-                  <span class="card-title white-text hoverline">Photo-Videography
-                  <a href="https://youtu.be/JwKEbTk75nc?si=Yvp2RdOWDvp1VRlQ" target="_blank" title="youtube">
-                  <i class="bi bi bi-youtube right"></i></a>
-                  <a href="https://instagram.com/rmuqsith" target="_blank" title="instagram">
-                  <i class="bi bi bi-instagram right"></i></a>
-                  </span>
-                  <p>
-                    Hobby besides gaming and gamedev.
-                  </p>
-                </div>
-           
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- TOOLS-->
-      <section id="skills" class="section scrollspy">
-        <h3 class="page-title white-text"><span class="grey">Tech</span></h3>
-        <div class="container">
-          <div class="card">
-            <div class="card-content">
-              <div class="row text-center">
-                <div class="col s5 m1">
-                  <img
-                    alt="unity"
-                    src="/assets/img/unity.png"
-                    class="responsive-img"
-                  />Unity
-                </div>
-                <div class="col s5 m1">
-                  <img
-                    alt="unreal engine"
-                    src="/assets/img/ue.png"
-                    class="responsive-img"
-                  />Unreal Engine
-                </div>
-                <div class="col s5 m1">
-                  <img
-                    alt="csharp"
-                    src="/assets/img/csscript.png"
-                    class="responsive-img"
-                  />C#
-                </div>
-                <div class="col s5 m1">
-                  <img
-                    alt="unity shadergraph"
-                    src="/assets/img/sg_graph.png"
-                    class="responsive-img"
-                  />Unity Shader Graph
-                </div>
-                <div class="col s5 m1">
-                  <img
-                    alt="ue blueprint"
-                    src="/assets/img/blueprint.png"
-                    class="responsive-img"
-                  />UE Blueprint
-                </div>
-                <div class="col s5 m1">
-                  <img
-                    alt="ue material"
-                    src="/assets/img/ue_material.svg"
-                    class="responsive-img"
-                  />UE Material
-                </div>
-                <div class="col s5 m1">
-                  <img
-                    alt="cplusplus"
-                    src="/assets/img/cplusplus.png"
-                    class="responsive-img"
-                  />C++
-                </div>
-                <div class="col s5 m1">
-                  <img
-                    alt="git"
-                    src="/assets/img/git.png"
-                    class="responsive-img"
-                  />Git
-                </div>
-                <div class="col s5 m1">
-                  <img
-                    alt="plasticscm"
-                    src="/assets/img/plasticscm.png"
-                    class="responsive-img"
-                  />PlasticSCM
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Eight Section: Contact -->
-      <section id="contact" class="section scrollspy" style="height: 80vh">
-        <h3 class="page-title white-text"><span class="grey">Contact</span></h3>
-        <div class="container">
-          <p>Muhammad Rafid Muqsith</p>
-          <p>Tangerang, Banten</p>
-          <p>Indonesia</p>
-          <p style="margin-top: 50px">
-            <a
-              aria-label="Email"
-              href="mailto:rafidmuqsith@gmail.com"
-              target="_blank"
-              data-position="top"
-              data-tooltip="Email"
-              class="tooltipped"
-            >
-              <i class="bi bi-envelope-fill"></i>
-              <a
-                aria-label="Email "
-                href="mailto:rafidmuqsith@gmail.com"
-                class="hoverline"
-              >
-                Email</a
-              ></a
-            >
-          </p>
-          <p>
-            <a
-              aria-label="View  on LinkedIn"
-              href="https://www.linkedin.com/in/rafidmuqsith/"
-              target="_blank"
-              data-position="top"
-              data-tooltip="View  on LinkedIn"
-              class="tooltipped"
-            >
-              <i class="bi bi-linkedin"> </i>
-              <a
-                aria-label=" on LinkedIn"
-                href="https://www.linkedin.com/in/rafidmuqsith/"
-                class="hoverline"
-                target="_blank"
-              >
-                LinkedIn</a
-              ></a
-            >
-          </p>
-          <p>
-            <a
-              aria-label="View  on Discord"
-              href="https://discordapp.com/users/253157608985198592"
-              target="_blank"
-              data-position="top"
-              data-tooltip="View  on Discord"
-              class="tooltipped"
-            >
-              <i class="bi bi-discord"> </i>
-              <a
-                aria-label=" on Discord"
-                href="https://discordapp.com/users/253157608985198592"
-                class="hoverline"
-                target="_blank"
-              >
-                Discord</a
-              ></a
-            >
-          </p>
-          <p></p>
-        </div>
-      </section>
-    </main>
-
-    <script>
-      // Get the button
-      let mybutton = document.getElementById("myBtn");
-
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-    </script>
-
-    <!-- jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    
-
-    <!-- Materialize - Compiled and minified JavaScript-->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js" integrity="sha512-W/yuNCM1RPzKkcgv0C+ppauVlcEdgMdPu+WlrUoIOLsr/QCsq0cvY1gWTtGVkWWrLwhq2hwOAYgtr2LHHLV2fw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-      // Materialize - Initializers
-      $(document).ready(function () {
-        $(".scrollspy").scrollSpy();
-        // Initialize collapse button
-        $(".button-collapse").sideNav({
-          menuWidth: 190, // Default is 240
-          edge: "left", // Choose the horizontal origin
-          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-        });
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"
+    integrity="sha512-W/yuNCM1RPzKkcgv0C+ppauVlcEdgMdPu+WlrUoIOLsr/QCsq0cvY1gWTtGVkWWrLwhq2hwOAYgtr2LHHLV2fw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy();
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
       });
-    </script>
-  </body>
-  <footer class="footer">
-    <ul>
-      <li>&copy; Muhammad Rafid Muqsith, 2024</li>
-    </ul>
-  </footer>
+    });
+  </script>
+</body>
+<footer class="footer">
+  <ul>
+    <li>&copy; Muhammad Rafid Muqsith, 2024</li>
+  </ul>
+</footer>
+
 </html>

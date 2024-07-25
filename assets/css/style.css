@@ -37,6 +37,11 @@ hr.title{
   border: none;
 }
 
+.page-title{
+  margin-bottom: 50px;
+  border: none;
+}
+
 .icon-btn {
   margin-left: auto;
   width: 50px;
@@ -81,6 +86,28 @@ hr.title{
 }
 
 /* Buttons - Read Me, Contact Us */
+
+.mini-button {
+  position: relative;
+  padding: 2px 10px 2px 10px;
+  margin-left: 0px;
+  background-color: #E1E8F5;
+  border: 2px solid #E1E8F5;
+  color: #191E29;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  /* padding: 11px 20px; */
+}
+
+.mini-button:hover{
+  color: #E1E8F5;
+  background-color: #191E29;
+}
 
 .univ {
   position: relative;
@@ -176,6 +203,7 @@ hr.title{
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0px;
+  border-radius: 5px;
   -webkit-border-radius: 5px;
 }
 
@@ -193,7 +221,7 @@ hr.title{
   -webkit-border-radius: 5px;
 }
 
-.viewme {
+.fillbutton {
   position: relative;
   padding: 11px 20px;
   background-color: #E1E8F5;
@@ -204,17 +232,17 @@ hr.title{
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1em;
-  margin-right: 5px;
+  margin-right: 10px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
 
-.viewme:hover{
+.fillbutton:hover{
   color: #E1E8F5;
   background-color: #191E29;
 }
 
-.contactme {
+.linebutton {
   background: none;
   position: relative;
   padding: 11px 35px;
@@ -230,9 +258,33 @@ hr.title{
   -webkit-border-radius: 5px;
 }
 
-.contactme:hover{
+.linebutton:hover{
   color: #585858;
   background-color: #E1E8F5;
+}
+
+.bot-button {
+  background: none;
+  position: relative;
+  padding: 10px 5px;
+  color: #E1E8F5;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  margin: 10px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.bot-button:hover{
+  text-decoration-line: underline;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 /* main body */
 
@@ -331,6 +383,9 @@ nav i {
 
 main {
   background-color: #191E29;
+}
+
+section {
   padding-left: 60px;
 }
 
@@ -423,15 +478,14 @@ li.logo span {
 }
 
 .container {
-  margin-left: 40;
-  width: 95%;
+  /* margin-left: 40;
+  width: 95%; */
+  width: 100%;
 }
 
 h3 {
+  font-size: 2.3rem;
   font-weight: 600;
-  margin-bottom: 20px;
-  margin-top: 60px;
-  padding: 30px 40px;
 }
 
 .section {
@@ -608,6 +662,10 @@ h3 {
   line-height: 1.75rem;
 }
 
+.card .card-content .card-title:hover{
+  text-decoration-line: underline;
+}
+
 .card i.right {
   margin-left: 10px;
 }
@@ -640,8 +698,8 @@ a.hoverline:hover {
 
 #skills h3 {
   padding-top: 50px;
-  margin-bottom: 50px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 #skills .col img.responsive-img {
@@ -755,9 +813,6 @@ small {
 }
 
 @media (max-width: 992px) {
-  .contactme{
-    margin-top: 4em;
-  }
   main {
     padding-left: 0px;
     padding-top: 64px;
