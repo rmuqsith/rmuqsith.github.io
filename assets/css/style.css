@@ -822,6 +822,10 @@ small {
     padding-left: 0px;
     padding-top: 64px;
   }
+  section{
+    padding-left: 0px;
+    padding-top: 64px;
+  }
   ul.side-nav a {
     line-height: 100%;
     padding: 0;
