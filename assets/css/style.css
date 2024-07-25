@@ -855,7 +855,7 @@ small {
     font-size: 1.4rem;
   }
   .container {
-    margin: 0 auto 80px;
+    margin: 0 auto 0;
   }
   nav.hide-on-large.only.trigger {
     display: block;
