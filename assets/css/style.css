@@ -222,14 +222,14 @@ hr.title{
   -webkit-border-radius: 2px;
 }
 
-.fillbutton {
+.fill-button {
   position: relative;
   padding: 11px 20px;
   background-color: #E1E8F5;
   border: 2px solid #E1E8F5;
   color: #191E29;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 10px;
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1em;
@@ -238,19 +238,19 @@ hr.title{
   -webkit-border-radius: 2px;
 }
 
-.fillbutton:hover{
+.fill-button:hover{
   color: #E1E8F5;
   background-color: #191E29;
 }
 
-.linebutton {
+.line-button {
   background: none;
   position: relative;
   padding: 11px 35px;
   color: #E1E8F5;
   border: 2px solid #E1E8F5;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 10px;
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1.5em;
@@ -259,7 +259,35 @@ hr.title{
   -webkit-border-radius: 2px;
 }
 
-.linebutton:hover{
+.line-background {
+  background: none;
+  color: #E1E8F5;
+  display: inline-block;
+  margin: 10px 0px 50px 0px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+.fill-background {
+  background: none;
+  background-color: #E1E8F5;
+  border: 2px solid #E1E8F5;
+  color: #191E29;
+  display: inline-block;
+  padding-top: 8px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+input[type="text"], input[type="email"]{
+  font-size: 12px;
+  background-color: #E1E8F5;
+  border: 2px solid #E1E8F5;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+.line-button:hover{
   color: #585858;
   background-color: #E1E8F5;
 }
@@ -288,6 +316,11 @@ hr.title{
   align-items: center;
   text-align: center;
 }
+
+.contact-form{
+  width: 50%;
+}
+
 /* main body */
 
 /* body-color */
@@ -310,6 +343,11 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
+}
+
+textarea {
+  resize: vertical;
+  font-size: 12px;
 }
 
 /* body {
@@ -829,6 +867,9 @@ small {
   section{
     padding-left: 0px;
     padding-top: 64px;
+  }
+  .contact-form{
+    width: 100%;
   }
   ul.side-nav a {
     line-height: 100%;

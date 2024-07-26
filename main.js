@@ -75,7 +75,7 @@ class NavSidebar extends HTMLElement{
 class PortoButtons extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
-        <div class="container-center"  style="margin-top: 200px;margin-bottom: 20px;">
+        <div class="container-center"  style="margin-top: 40px;margin-bottom: 20px;">
             <h6 style="font-weight: 600;">See Also:</h6>
         </div>
         <div class="container-center">
@@ -114,19 +114,19 @@ class PortoButtonsHome extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
         
-                  <a href="/portfolio/game-design" class="linebutton">
+                  <a href="/portfolio/game-design" class="line-button">
                     Game Design
                     <i class="bi bi-joystick"></i>
                   </a>
-                  <a href="/portfolio/programming" class="linebutton">
+                  <a href="/portfolio/programming" class="line-button">
                     Programming
                     <i class="bi bi-code"></i>
                   </a>
-                  <a href="/portfolio/game-art" class="linebutton">
+                  <a href="/portfolio/game-art" class="line-button">
                     Game Art
                     <i class="bi bi-brush"></i>
                   </a>
-                  <a href="/portfolio/misc" class="linebutton">
+                  <a href="/portfolio/misc" class="line-button">
                     Misc
                     <i class="bi bi-collection-fill"></i>
                   </a>
