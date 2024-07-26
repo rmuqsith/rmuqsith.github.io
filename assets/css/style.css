@@ -493,6 +493,10 @@ h5 {
   line-height: 2rem;
 }
 
+h6 {
+  line-height: 1.5rem;
+}
+
 .section {
   padding-bottom: 0;
   padding-top: 0;
