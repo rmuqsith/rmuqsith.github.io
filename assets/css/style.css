@@ -180,6 +180,20 @@ hr.title{
   -webkit-border-radius: 2px;
 }
 
+.game-jam {
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  margin-left: 0px;
+  top: 10px;
+  background: #bd10bd;
+  color: #E1E8F5;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
 .wip {
   position: relative;
   padding: 0px 10px 0px 10px;
