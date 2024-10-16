@@ -8,13 +8,11 @@ class NavSidebar extends HTMLElement{
                         aria-label="Navigate to the About section"
                         href="/"
                         class="waves-effect waves-dark white-text nav__link"
-                        ><i class="bi bi-person-fill"></i
+                        ><i class="bi bi-house-fill"></i
                     ></a>
                     </li>
 
                     <li class="bold">
-                    <!-- mdi-av-web small
-                        mdi-av-my-library-books small-->
                     <a
                         aria-label="Navigate to the Projects section"
                         href="/portfolio/game-design"
@@ -24,8 +22,6 @@ class NavSidebar extends HTMLElement{
                     </li>
 
                     <li class="bold">
-                    <!-- mdi-av-web small
-                        mdi-av-my-library-books small-->
                     <a
                         aria-label="Navigate to the Projects section"
                         href="/portfolio/programming"
@@ -35,35 +31,11 @@ class NavSidebar extends HTMLElement{
                     </li>
 
                     <li class="bold">
-                    <!-- mdi-av-web small
-                        mdi-av-my-library-books small-->
                     <a
                         aria-label="Navigate to the Projects section"
-                        href="/portfolio/game-art"
+                        href="/portfolio/creative-works"
                         class="waves-effect waves-dark white-text nav__link"
                         ><i class="bi bi-brush"></i
-                    ></a>
-                    </li>
-
-                    <li class="bold">
-                    <!-- mdi-av-web small
-                        mdi-av-my-library-books small-->
-                    <a
-                        aria-label="Navigate to the Projects section"
-                        href="/portfolio/misc"
-                        class="waves-effect waves-dark white-text nav__link"
-                        ><i class="bi bi-collection-fill"></i
-                    ></a>
-                    </li>
-
-                    <li class="bold">
-                    <!-- mdi-av-web small
-                        mdi-av-my-library-books small-->
-                    <a
-                        aria-label="Navigate to the Contact section"
-                        href="/contact"
-                        class="waves-effect waves-dark white-text nav__link"
-                        ><i class="bi bi-card-text"></i
                     ></a>
                     </li>
                 </ul>
@@ -84,9 +56,6 @@ class PortoButtons extends HTMLElement{
                   <a href="/" class="bot-button">
                     Back to Home
                   </a>
-                  <a href="../contact" class="bot-button p__button">
-                    Contact
-                  </a>
                   <a href="/portfolio/game-design" class="bot-button p__button">
                     Game Design
                     <i class="bi bi-joystick"></i>
@@ -95,13 +64,9 @@ class PortoButtons extends HTMLElement{
                     Programming
                     <i class="bi bi-code"></i>
                   </a>
-                  <a href="/portfolio/game-art" class="bot-button p__button">
-                    Game Art
+                  <a href="/portfolio/creative-works" class="bot-button p__button">
+                    Creative Works
                     <i class="bi bi-brush"></i>
-                  </a>
-                  <a href="/portfolio/misc" class="bot-button p__button">
-                    Misc
-                    <i class="bi bi-collection-fill"></i>
                   </a>
                 </div>
               </div>
@@ -122,13 +87,9 @@ class PortoButtonsHome extends HTMLElement{
                     Programming
                     <i class="bi bi-code"></i>
                   </a>
-                  <a href="/portfolio/game-art" class="line-button">
-                    Game Art
+                  <a href="/portfolio/creative-works" class="line-button">
+                    Creative Works
                     <i class="bi bi-brush"></i>
-                  </a>
-                  <a href="/portfolio/misc" class="line-button">
-                    Misc
-                    <i class="bi bi-collection-fill"></i>
                   </a>
         `
     }

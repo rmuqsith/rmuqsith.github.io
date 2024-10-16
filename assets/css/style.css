@@ -238,12 +238,12 @@ hr.title{
 
 .fill-button {
   position: relative;
-  padding: 11px 20px;
+  padding: 8px 20px;
   background-color: #E1E8F5;
   border: 2px solid #E1E8F5;
   color: #191E29;
   font-weight: 600;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1em;
@@ -260,11 +260,26 @@ hr.title{
 .line-button {
   background: none;
   position: relative;
-  padding: 11px 35px;
+  padding: 8px 15px;
   color: #E1E8F5;
   border: 2px solid #E1E8F5;
   font-weight: 600;
-  font-size: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1.5em;
+  margin-right: 10px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+.tp-button {
+  background: none;
+  position: relative;
+  padding: 7px 15px;
+  color: #E1E8F5;
+  font-weight: 600;
+  font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1.5em;
@@ -280,6 +295,11 @@ hr.title{
   margin: 10px 0px 50px 0px;
   border-radius: 2px;
   -webkit-border-radius: 2px;
+}
+
+.vertical-line {
+  border-left: 2px solid #E1E8F5;
+  margin-right: 12px;
 }
 
 .fill-background {
@@ -339,7 +359,13 @@ input[type="text"], input[type="email"]{
 
 /* body-color */
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
+  display: grid;
   color: #E1E8F5;
   background-color: #191E29;
   font-size: 12px;
@@ -416,6 +442,10 @@ nav {
   height: 0;
 }
 
+nav ul a {
+  font-size: 1rem;
+}
+
 /* nav {
   background: rgb(149, 126, 212);
   box-shadow: none;
@@ -423,7 +453,7 @@ nav {
 } */
 
 nav i {
-  padding: 0 15px;
+  padding: 15px 20px;
   position: relative;
   top: 5px;
 }
@@ -459,7 +489,7 @@ dt {
 }
 
 ul.side-nav {
-  width: 45px;
+  width: fit-content;
   background-color: #0B0E14;
   box-shadow: none;
 }
@@ -511,7 +541,7 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #363636;
+  background-color: #191e29;
   border-left: 3px solid;
 }
 
@@ -574,7 +604,7 @@ h6 {
 
 .greetings{
   font-weight: 400;
-  margin-top: 60px;
+  margin-top: 0;
   margin-left: 0;
   margin-bottom: 10px;
   padding-left: 0;
@@ -853,6 +883,15 @@ small {
   border-radius: 10px;
 }
 
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+}
+
+.button-container a {
+  margin: 5px; /* Optional: adds spacing between buttons */
+}
+
 @media (min-width: 1200px) {
   #experience .container {
     width: 860px;
@@ -992,5 +1031,8 @@ small {
   }
   #intro.section {
     background-position-x: 30%;
+  }
+  .vertical-line {
+    margin-right: 100px;
   }
 }
