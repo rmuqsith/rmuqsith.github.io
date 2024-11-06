@@ -105,6 +105,25 @@ hr.title{
   /* padding: 11px 20px; */
 }
 
+span.grey:after{
+  content: '';
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  animation: animate 3s infinite;
+}
+@keyframes animate{
+  0%, 16.66% {
+    content: ' Software Engineer';
+  }
+  33.33%, 49.99% {
+    content: ' Game Programmer';
+  }
+  66.66%, 100% {
+    content: ' Level Designer';
+  }
+}
+
 .mini-button:hover{
   color: #E1E8F5;
   background-color: #191E29;
