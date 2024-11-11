@@ -105,7 +105,7 @@ hr.title{
   /* padding: 11px 20px; */
 }
 
-span.grey:after{
+span.about:after{
   content: '';
   text-align: center;
   display: inline-block;
@@ -879,6 +879,10 @@ small {
 }
 
 .grey {
+  background-color: #0B0E14 !important;
+}
+
+.about {
   background-color: #0B0E14 !important;
 }
 
