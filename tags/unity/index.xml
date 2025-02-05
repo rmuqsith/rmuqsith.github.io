@@ -7,16 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Rafid Muqsith</copyright>
-    <lastBuildDate>Sat, 04 Feb 2023 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 May 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FSHS</title>
       <link>http://localhost:1313/posts/portfolio/fshs/</link>
-      <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
+      <pubDate>Sat, 04 May 2024 11:17:33 +0700</pubDate>
       
       <guid>http://localhost:1313/posts/portfolio/fshs/</guid>
       <description>A desktop Ship Handling Simulator using VR headset for display and Azimuth Controller for input.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/fshs/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Shader, Material, and VFX</title>
+      <link>http://localhost:1313/posts/portfolio/shader-mat-vfx/</link>
+      <pubDate>Thu, 04 Apr 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/shader-mat-vfx/</guid>
+      <description>Exploring Unity ShaderGraph, ParticleSystem, UE5 Material, and UE5 Niagara System</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/shader-mat-vfx/feature.gif" />
+    </item>
+    
+    <item>
+      <title>FDS</title>
+      <link>http://localhost:1313/posts/portfolio/fds/</link>
+      <pubDate>Mon, 01 Jan 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/fds/</guid>
+      <description>A full rig Driving Simulator with cockpit setup using steering wheel, gear shifter, and MotionSystems.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/fds/feature.gif" />
     </item>
     
     <item>
@@ -27,26 +47,6 @@
       <guid>http://localhost:1313/posts/portfolio/hyper-casual/</guid>
       <description>Developed 20+ games as part of MDL team and in collaboration with a few hyper casual publishers.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/hyper-casual/feature.png" />
-    </item>
-    
-    <item>
-      <title>Shader, Material, and VFX</title>
-      <link>http://localhost:1313/posts/portfolio/shader-mat-vfx/</link>
-      <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
-      
-      <guid>http://localhost:1313/posts/portfolio/shader-mat-vfx/</guid>
-      <description>Exploring Unity ShaderGraph, ParticleSystem, UE5 Material, and UE5 Niagara System</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/shader-mat-vfx/feature.gif" />
-    </item>
-    
-    <item>
-      <title>FDS</title>
-      <link>http://localhost:1313/posts/portfolio/fds/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/portfolio/fds/</guid>
-      <description>A full rig Driving Simulator with cockpit setup using steering wheel, gear shifter, and MotionSystems.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/fds/feature.gif" />
     </item>
     
     <item>

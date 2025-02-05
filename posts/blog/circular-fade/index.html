@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
@@ -453,7 +453,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/posts/blog/circular-fade/feature_hu_6bd562a7c27a1332.gif);">
+    style="background-image:url(/posts/blog/circular-fade/feature_hu_5c7ae14b36254ead.gif);">
     
 
 
@@ -545,6 +545,8 @@
 
 
 
+  
+
 
 
 
@@ -565,6 +567,8 @@
 
 <div class="flex flex-row flex-wrap items-center">
   
+  
+  <time datetime="2024-10-16T11:17:33&#43;07:00">2024</time>
   
 
   
@@ -646,7 +650,83 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#creating-thematerial">Creating the Material</a></li>
+        <li><a href="#setting-up-the-widget-blueprint">Setting Up the Widget Blueprint</a></li>
+        <li><a href="#adding-the-fade-animation">Adding the Fade Animation</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#creating-thematerial">Creating the Material</a></li>
+        <li><a href="#setting-up-the-widget-blueprint">Setting Up the Widget Blueprint</a></li>
+        <li><a href="#adding-the-fade-animation">Adding the Fade Animation</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -661,11 +741,11 @@
         class="my-0 rounded-md"
         loading="lazy"
         srcset="
-        /posts/blog/circular-fade/feature_hu_ff707dbcf01765f8.gif 330w,
-        /posts/blog/circular-fade/feature_hu_c2e8ab7797554ce1.gif 660w,
-        /posts/blog/circular-fade/feature_hu_c170fc64e63dfa9d.gif 1024w,
-        /posts/blog/circular-fade/feature_hu_788965315aaa0bf8.gif 2x"
-        src="/posts/blog/circular-fade/feature_hu_c2e8ab7797554ce1.gif"
+        /posts/blog/circular-fade/feature_hu_b0197fb1595f5fc8.gif 330w,
+        /posts/blog/circular-fade/feature_hu_52ffa2004620fc96.gif 660w,
+        /posts/blog/circular-fade/feature_hu_9045b8458a11d6d1.gif 1024w,
+        /posts/blog/circular-fade/feature_hu_f286df085d3b8f20.gif 2x"
+        src="/posts/blog/circular-fade/feature_hu_52ffa2004620fc96.gif"
         alt=""
       />
       
@@ -698,11 +778,11 @@
         class="my-0 rounded-md"
         loading="lazy"
         srcset="
-        /posts/blog/circular-fade/1_hu_531c183fb22c22c6.png 330w,
-        /posts/blog/circular-fade/1_hu_e97137db1bf6a409.png 660w,
-        /posts/blog/circular-fade/1_hu_b34c9d55438fdfd9.png 1024w,
-        /posts/blog/circular-fade/1_hu_bfc383948a726fd6.png 2x"
-        src="/posts/blog/circular-fade/1_hu_e97137db1bf6a409.png"
+        /posts/blog/circular-fade/1_hu_2a36aec6e96e5ffa.png 330w,
+        /posts/blog/circular-fade/1_hu_b2d6b5265bcc2ffc.png 660w,
+        /posts/blog/circular-fade/1_hu_c15fd56901acad8f.png 1024w,
+        /posts/blog/circular-fade/1_hu_a23110048823b324.png 2x"
+        src="/posts/blog/circular-fade/1_hu_b2d6b5265bcc2ffc.png"
         alt=""
       />
       
@@ -733,11 +813,11 @@
         class="my-0 rounded-md"
         loading="lazy"
         srcset="
-        /posts/blog/circular-fade/2_hu_aab6a9c8a43d929c.png 330w,
-        /posts/blog/circular-fade/2_hu_64307ee8617d0c98.png 660w,
-        /posts/blog/circular-fade/2_hu_abb0288caa09e425.png 1024w,
-        /posts/blog/circular-fade/2_hu_d81a10d4ba9fb547.png 2x"
-        src="/posts/blog/circular-fade/2_hu_64307ee8617d0c98.png"
+        /posts/blog/circular-fade/2_hu_94a6a6f55f46a95d.png 330w,
+        /posts/blog/circular-fade/2_hu_3265e4c7fa9f9dc7.png 660w,
+        /posts/blog/circular-fade/2_hu_ce6206f237b4296f.png 1024w,
+        /posts/blog/circular-fade/2_hu_71f78984ceb83c90.png 2x"
+        src="/posts/blog/circular-fade/2_hu_3265e4c7fa9f9dc7.png"
         alt=""
       />
       
@@ -765,11 +845,11 @@
         class="my-0 rounded-md"
         loading="lazy"
         srcset="
-        /posts/blog/circular-fade/3_hu_330b693cf2670d73.png 330w,
-        /posts/blog/circular-fade/3_hu_d118effcf06fd2d5.png 660w,
-        /posts/blog/circular-fade/3_hu_6996a46da38ccb2f.png 1024w,
-        /posts/blog/circular-fade/3_hu_9a8fce5e56650956.png 2x"
-        src="/posts/blog/circular-fade/3_hu_d118effcf06fd2d5.png"
+        /posts/blog/circular-fade/3_hu_c0ffb25340966488.png 330w,
+        /posts/blog/circular-fade/3_hu_e6e79048a662fc11.png 660w,
+        /posts/blog/circular-fade/3_hu_150d64bc2d9935a.png 1024w,
+        /posts/blog/circular-fade/3_hu_d75b53e1cc657e75.png 2x"
+        src="/posts/blog/circular-fade/3_hu_e6e79048a662fc11.png"
         alt=""
       />
       
@@ -785,11 +865,11 @@
         class="my-0 rounded-md"
         loading="lazy"
         srcset="
-        /posts/blog/circular-fade/4_hu_22c52fe8235ada54.png 330w,
-        /posts/blog/circular-fade/4_hu_93476809eb0934cd.png 660w,
-        /posts/blog/circular-fade/4_hu_98744f0513783222.png 1024w,
-        /posts/blog/circular-fade/4_hu_b87cadb3be50b198.png 2x"
-        src="/posts/blog/circular-fade/4_hu_93476809eb0934cd.png"
+        /posts/blog/circular-fade/4_hu_6f8fe9e8234f8900.png 330w,
+        /posts/blog/circular-fade/4_hu_c17a0af84f2859d3.png 660w,
+        /posts/blog/circular-fade/4_hu_1633d96be9799650.png 1024w,
+        /posts/blog/circular-fade/4_hu_29614631199102a6.png 2x"
+        src="/posts/blog/circular-fade/4_hu_c17a0af84f2859d3.png"
         alt=""
       />
       
@@ -806,11 +886,11 @@
         class="my-0 rounded-md"
         loading="lazy"
         srcset="
-        /posts/blog/circular-fade/5_hu_3310877910ee1da3.png 330w,
-        /posts/blog/circular-fade/5_hu_464d835d3fb6f38f.png 660w,
-        /posts/blog/circular-fade/5_hu_73209be9a38d0dfd.png 1024w,
-        /posts/blog/circular-fade/5_hu_1fcc620e19adb664.png 2x"
-        src="/posts/blog/circular-fade/5_hu_464d835d3fb6f38f.png"
+        /posts/blog/circular-fade/5_hu_bda93fe4593e5038.png 330w,
+        /posts/blog/circular-fade/5_hu_2e4f582cb93f6b67.png 660w,
+        /posts/blog/circular-fade/5_hu_7df464d1cd1a6dec.png 1024w,
+        /posts/blog/circular-fade/5_hu_8a80eb653d6440dd.png 2x"
+        src="/posts/blog/circular-fade/5_hu_2e4f582cb93f6b67.png"
         alt=""
       />
       
@@ -823,11 +903,11 @@
         class="my-0 rounded-md"
         loading="lazy"
         srcset="
-        /posts/blog/circular-fade/6_hu_eb6409deebe295a3.gif 330w,
-        /posts/blog/circular-fade/6_hu_349764053de719af.gif 660w,
-        /posts/blog/circular-fade/6_hu_a0324f96bc71edef.gif 1024w,
-        /posts/blog/circular-fade/6_hu_68351e16f20f59e4.gif 2x"
-        src="/posts/blog/circular-fade/6_hu_349764053de719af.gif"
+        /posts/blog/circular-fade/6_hu_9177cf4507dc3ae3.gif 330w,
+        /posts/blog/circular-fade/6_hu_54a2f22aae1d8e3a.gif 660w,
+        /posts/blog/circular-fade/6_hu_9862ebb1dd721eeb.gif 1024w,
+        /posts/blog/circular-fade/6_hu_ca64ee72ce598ad9.gif 2x"
+        src="/posts/blog/circular-fade/6_hu_54a2f22aae1d8e3a.gif"
         alt=""
       />
       

@@ -22,11 +22,21 @@
     <item>
       <title>Project SD</title>
       <link>http://localhost:1313/posts/portfolio/project-sd/</link>
-      <pubDate>Sun, 04 Feb 2024 11:17:33 +0700</pubDate>
+      <pubDate>Tue, 04 Jun 2024 11:17:33 +0700</pubDate>
       
       <guid>http://localhost:1313/posts/portfolio/project-sd/</guid>
       <description>A prototype project of a platformer game made in UE5.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/project-sd/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Shader, Material, and VFX</title>
+      <link>http://localhost:1313/posts/portfolio/shader-mat-vfx/</link>
+      <pubDate>Thu, 04 Apr 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/shader-mat-vfx/</guid>
+      <description>Exploring Unity ShaderGraph, ParticleSystem, UE5 Material, and UE5 Niagara System</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/shader-mat-vfx/feature.gif" />
     </item>
     
     <item>
@@ -57,16 +67,6 @@
       <guid>http://localhost:1313/posts/portfolio/panjat-giant-pinang/</guid>
       <description>A quick prototype of a platformer game made using UEFN when it first launched.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/panjat-giant-pinang/feature.gif" />
-    </item>
-    
-    <item>
-      <title>Shader, Material, and VFX</title>
-      <link>http://localhost:1313/posts/portfolio/shader-mat-vfx/</link>
-      <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
-      
-      <guid>http://localhost:1313/posts/portfolio/shader-mat-vfx/</guid>
-      <description>Exploring Unity ShaderGraph, ParticleSystem, UE5 Material, and UE5 Niagara System</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/shader-mat-vfx/feature.gif" />
     </item>
     
     <item>
