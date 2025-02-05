@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solo on Rafid Muqsith</title>
+    <link>http://localhost:1313/tags/solo/</link>
+    <description>Recent content in Solo on Rafid Muqsith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Rafid Muqsith</copyright>
+    <lastBuildDate>Sun, 04 Feb 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/solo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Online Courses</title>
+      <link>http://localhost:1313/posts/portfolio/courses/</link>
+      <pubDate>Sun, 04 Feb 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/courses/</guid>
+      <description>Some recent topics: UE5 C++, C++ for Game Development, Unity VR.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/courses/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Project SD</title>
+      <link>http://localhost:1313/posts/portfolio/project-sd/</link>
+      <pubDate>Sun, 04 Feb 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/project-sd/</guid>
+      <description>A prototype project of a platformer game made in UE5.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/project-sd/feature.gif" />
+    </item>
+    
+    <item>
+      <title>UE5 Traversal &amp; Combat</title>
+      <link>http://localhost:1313/posts/portfolio/ue5-traversal-combat/</link>
+      <pubDate>Sun, 04 Feb 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/ue5-traversal-combat/</guid>
+      <description>A Character traversal and combat mechanic based on UE5 Manny Skeleton and implemented with MetaHuman character.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/ue5-traversal-combat/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Invitation Web</title>
+      <link>http://localhost:1313/posts/portfolio/web/</link>
+      <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/web/</guid>
+      <description>A freelance side project building custom web for wedding invitation.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/web/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Panjat Giant Pinang</title>
+      <link>http://localhost:1313/posts/portfolio/panjat-giant-pinang/</link>
+      <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/panjat-giant-pinang/</guid>
+      <description>A quick prototype of a platformer game made using UEFN when it first launched.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/panjat-giant-pinang/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Crumbrawl</title>
+      <link>http://localhost:1313/posts/portfolio/crumbrawl/</link>
+      <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/crumbrawl/</guid>
+      <description>A quick prototype of a multiplayer game. Survive the crumbling island and fight against other players.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/crumbrawl/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Protectean</title>
+      <link>http://localhost:1313/posts/portfolio/protectean/</link>
+      <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/protectean/</guid>
+      <description>Inspired by feeding frenzy where you play as a trash-eating slime to save the ocean.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/protectean/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

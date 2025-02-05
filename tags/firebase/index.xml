@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firebase on Rafid Muqsith</title>
+    <link>http://localhost:1313/tags/firebase/</link>
+    <description>Recent content in Firebase on Rafid Muqsith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Rafid Muqsith</copyright>
+    <lastBuildDate>Thu, 04 Feb 2021 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Umbi-umbian</title>
+      <link>http://localhost:1313/posts/portfolio/umbi/</link>
+      <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/umbi/</guid>
+      <description>A 2D arcade game. React quickly and use powerups to avoid obstacles, collect coins to unlock new characters.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/umbi/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Balarunta</title>
+      <link>http://localhost:1313/posts/portfolio/balarunta/</link>
+      <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/balarunta/</guid>
+      <description>A thesis project made for my bachelor&amp;rsquo;s degree. Waste collection app with a pet simulation feature.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/balarunta/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

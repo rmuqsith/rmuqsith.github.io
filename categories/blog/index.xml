@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Rafid Muqsith</title>
+    <link>http://localhost:1313/categories/blog/</link>
+    <description>Recent content in Blog on Rafid Muqsith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Rafid Muqsith</copyright>
+    <lastBuildDate>Wed, 16 Oct 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Creating a Cartoon-Style Circular Fade-to-Black Transition in UE5</title>
+      <link>http://localhost:1313/posts/blog/circular-fade/</link>
+      <pubDate>Wed, 16 Oct 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/blog/circular-fade/</guid>
+      <description>A thesis project made for my bachelor&amp;rsquo;s degree. Waste collection app with a pet simulation feature.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/blog/circular-fade/feature.gif" />
+    </item>
+    
+  </channel>
+</rss>
