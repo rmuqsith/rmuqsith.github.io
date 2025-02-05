@@ -15,7 +15,7 @@
       <pubDate>Wed, 16 Oct 2024 11:17:33 +0700</pubDate>
       
       <guid>http://localhost:1313/posts/blog/circular-fade/</guid>
-      <description>A thesis project made for my bachelor&amp;rsquo;s degree. Waste collection app with a pet simulation feature.</description>
+      <description>While developing my platformer game a while ago, I wanted to add a classic circular fade-to-black transition for when the player dies — similar to what you might see in cartoons or 3D Mario games.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/blog/circular-fade/feature.gif" />
     </item>
     
