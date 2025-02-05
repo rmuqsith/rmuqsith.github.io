@@ -69,36 +69,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/blog/</loc>
-    <lastmod>2024-10-16T11:17:33+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/blog/</loc>
-    <lastmod>2024-10-16T11:17:33+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/blog/circular-fade/</loc>
-    <lastmod>2024-10-16T11:17:33+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
-    <lastmod>2024-10-16T11:17:33+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/unreal-engine/</loc>
-    <lastmod>2024-10-16T11:17:33+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/categories/game/</loc>
     <lastmod>2024-08-04T11:17:33+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -131,6 +101,36 @@
   <url>
     <loc>http://localhost:1313/posts/portfolio/sss/</loc>
     <lastmod>2024-08-04T11:17:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/unreal-engine/</loc>
+    <lastmod>2024-08-04T11:17:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/blog/</loc>
+    <lastmod>2024-07-16T11:17:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/blog/</loc>
+    <lastmod>2024-07-16T11:17:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/blog/circular-fade/</loc>
+    <lastmod>2024-07-16T11:17:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <lastmod>2024-07-16T11:17:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

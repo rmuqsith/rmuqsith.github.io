@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Rafid Muqsith</copyright>
-    <lastBuildDate>Wed, 16 Oct 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jul 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Creating a Cartoon-Style Circular Fade-to-Black Transition in UE5</title>
       <link>http://localhost:1313/posts/blog/circular-fade/</link>
-      <pubDate>Wed, 16 Oct 2024 11:17:33 +0700</pubDate>
+      <pubDate>Tue, 16 Jul 2024 11:17:33 +0700</pubDate>
       
       <guid>http://localhost:1313/posts/blog/circular-fade/</guid>
       <description>While developing my platformer game a while ago, I wanted to add a classic circular fade-to-black transition for when the player dies — similar to what you might see in cartoons or 3D Mario games.</description>

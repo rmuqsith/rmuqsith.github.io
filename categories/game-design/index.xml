@@ -50,6 +50,16 @@
     </item>
     
     <item>
+      <title>Crumbrawl</title>
+      <link>http://localhost:1313/posts/portfolio/crumbrawl/</link>
+      <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/crumbrawl/</guid>
+      <description>A quick prototype of a multiplayer game. Survive the crumbling island and fight against other players.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/crumbrawl/feature.gif" />
+    </item>
+    
+    <item>
       <title>Balarunta</title>
       <link>http://localhost:1313/posts/portfolio/balarunta/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
