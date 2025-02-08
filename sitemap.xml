@@ -219,18 +219,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/portfolio/web/</loc>
-    <lastmod>2023-03-25T11:17:33+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/web/</loc>
-    <lastmod>2023-03-25T11:17:33+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/posts/portfolio/hyper-casual/</loc>
     <lastmod>2023-02-04T11:17:33+07:00</lastmod>
     <changefreq>daily</changefreq>

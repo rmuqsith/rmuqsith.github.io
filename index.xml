@@ -100,16 +100,6 @@
     </item>
     
     <item>
-      <title>Invitation Web</title>
-      <link>http://localhost:1313/posts/portfolio/web/</link>
-      <pubDate>Sat, 25 Mar 2023 11:17:33 +0700</pubDate>
-      
-      <guid>http://localhost:1313/posts/portfolio/web/</guid>
-      <description>A freelance side project building custom web for wedding invitation.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/web/feature.gif" />
-    </item>
-    
-    <item>
       <title>Hyper Casual</title>
       <link>http://localhost:1313/posts/portfolio/hyper-casual/</link>
       <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
