@@ -12,7 +12,7 @@
   <meta name="title" content="Project SD &middot; Rafid Muqsith" />
   
   <meta name="description" content="A prototype project of a platformer game made in UE5." />
-  <meta name="keywords" content="solo, unreal engine, locomotion, " />
+  <meta name="keywords" content="solo, unreal engine, locomotion, level design, " />
   
   
   <link rel="canonical" href="http://localhost:1313/posts/portfolio/project-sd/" />
@@ -79,6 +79,7 @@
     <meta property="article:tag" content="Solo">
     <meta property="article:tag" content="Unreal Engine">
     <meta property="article:tag" content="Locomotion">
+    <meta property="article:tag" content="Level Design">
     <meta property="og:image" content="http://localhost:1313/posts/portfolio/project-sd/feature.gif">
 
   
@@ -109,10 +110,10 @@
     
     "dateModified": "2024-06-04T11:17:33\u002b07:00",
     
-    "keywords": ["solo","unreal engine","locomotion"],
+    "keywords": ["solo","unreal engine","locomotion","level design"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "41"
+    "wordCount": "387"
   }]
   </script>
 
@@ -635,6 +636,14 @@
 </span>
   </span>
   
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/level-design/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Level Design
+  </span>
+</span>
+  </span>
+  
   
   
   
@@ -682,6 +691,20 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#details">Details</a></li>
+    <li><a href="#development-log"><strong>Development Log:</strong></a>
+      <ul>
+        <li><a href="#intro"><strong>Intro</strong></a></li>
+        <li><a href="#level-design"><strong>Level Design</strong></a></li>
+        <li><a href="#features"><strong>Features</strong></a>
+          <ul>
+            <li><a href="#dialogue"><strong>Dialogue</strong></a></li>
+            <li><a href="#radial-fade"><strong>Radial Fade</strong></a></li>
+            <li><a href="#explosion"><strong>Explosion</strong></a></li>
+            <li><a href="#jump-wall-jump-mantle-system"><strong>Jump, Wall Jump, Mantle System</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
     <li><a href="#links">Links</a></li>
   </ul>
 </nav>
@@ -697,6 +720,20 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#details">Details</a></li>
+    <li><a href="#development-log"><strong>Development Log:</strong></a>
+      <ul>
+        <li><a href="#intro"><strong>Intro</strong></a></li>
+        <li><a href="#level-design"><strong>Level Design</strong></a></li>
+        <li><a href="#features"><strong>Features</strong></a>
+          <ul>
+            <li><a href="#dialogue"><strong>Dialogue</strong></a></li>
+            <li><a href="#radial-fade"><strong>Radial Fade</strong></a></li>
+            <li><a href="#explosion"><strong>Explosion</strong></a></li>
+            <li><a href="#jump-wall-jump-mantle-system"><strong>Jump, Wall Jump, Mantle System</strong></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
     <li><a href="#links">Links</a></li>
   </ul>
 </nav>
@@ -759,6 +796,255 @@
 <li>3D Assets from VRoid and Kenney.</li>
 <li>Implemented Idle-Walk-Run Blend Space, Dash, Wall Jump, and Mantle.</li>
 </ul>
+
+
+<h2 class="relative group"><strong>Development Log:</strong> 
+    <div id="development-log" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#development-log" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group"><strong>Intro</strong> 
+    <div id="intro" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#intro" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>This project initially started around the end of April 2024 and was made just for fun in my free time. It’s also as a practice on developing an entire game from start to finish.</p>
+
+
+<h3 class="relative group"><strong>Level Design</strong> 
+    <div id="level-design" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#level-design" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>When I first started the project I made the initial level using Gaea for the terrain and then painted, and resculpt the terrain in Unreal Engine. Added some grass and trees using PCG, and manually added some static meshes.<br>
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/portfolio/project-sd/image13_hu_ba13a13f16c5fcde.png 330w,
+        /posts/portfolio/project-sd/image13_hu_b6dc67eab215ab8a.png 660w,
+        /posts/portfolio/project-sd/image13_hu_2a5a220203013694.png 1024w,
+        /posts/portfolio/project-sd/image13_hu_dafce5b30be4ffd4.png 2x"
+        src="/posts/portfolio/project-sd/image13_hu_b6dc67eab215ab8a.png"
+        alt=""
+      />
+      
+    </figure>
+<br>
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/portfolio/project-sd/image7_hu_2d3a36cd1b01731a.png 330w,
+        /posts/portfolio/project-sd/image7_hu_9c62f9f1d8d9b5c2.png 660w,
+        /posts/portfolio/project-sd/image7_hu_6fbdd56ca0596843.png 1024w,
+        /posts/portfolio/project-sd/image7_hu_1b6585050c11435a.png 2x"
+        src="/posts/portfolio/project-sd/image7_hu_9c62f9f1d8d9b5c2.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>After I tested out the level, for visuals and overall layout, I’m quite satisfied with the result. But then, when I tried plotting the gameplay flow and progression, I was quite stuck. Because this level was made without good documentation I’m thinking about remaking it. So I left out this level for now.</p>
+<p>So I made the new level from the beginning. I start recreating it by making the flow diagram of the game level, this will include: the section of the level, what is the “gate” to reach the next section, and what collectible or mechanic inside of a section.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/portfolio/project-sd/image12_hu_5c00616cf42642ad.jpg 330w,
+        /posts/portfolio/project-sd/image12_hu_1c97c7828080ce18.jpg 660w,
+        /posts/portfolio/project-sd/image12_hu_88840cfefec47d1.jpg 1024w,
+        /posts/portfolio/project-sd/image12_hu_affb5c4c25ff084e.jpg 2x"
+        src="/posts/portfolio/project-sd/image12_hu_1c97c7828080ce18.jpg"
+        alt=""
+      />
+      
+    </figure>
+
+This is the new level design flow, this really help me in creating the level layout<br>
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/portfolio/project-sd/image3_hu_5b8a6bcbe481e153.jpg 330w,
+        /posts/portfolio/project-sd/image3_hu_7cbee2f79e950c8c.jpg 660w,
+        /posts/portfolio/project-sd/image3_hu_3cc0add7bd886ce9.jpg 1024w,
+        /posts/portfolio/project-sd/image3_hu_f9d26def742b1f27.jpg 2x"
+        src="/posts/portfolio/project-sd/image3_hu_7cbee2f79e950c8c.jpg"
+        alt=""
+      />
+      
+    </figure>
+
+This is the 2d layout made as a reference for the level blockout<br>
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/portfolio/project-sd/image6_hu_254bb3a5c61f8843.png 330w,
+        /posts/portfolio/project-sd/image6_hu_6866ff290ab1e75f.png 660w,
+        /posts/portfolio/project-sd/image6_hu_bc22759ff1df5060.png 1024w,
+        /posts/portfolio/project-sd/image6_hu_d1924bf7dd6a5a1a.png 2x"
+        src="/posts/portfolio/project-sd/image6_hu_6866ff290ab1e75f.png"
+        alt=""
+      />
+      
+    </figure>
+
+This is the current level blockout in UE5. With using sections for each part of the level it helps me to create the progression and flow throughout the game. For each section there will be an obstacle and each obstacle will need a certain item or certain ability to get past it. So now it is easier to limit and direct players how to get past it.</p>
+
+
+<h3 class="relative group"><strong>Features</strong> 
+    <div id="features" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#features" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+
+
+<h4 class="relative group"><strong>Dialogue</strong> 
+    <div id="dialogue" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#dialogue" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/portfolio/project-sd/feature_hu_de27f81dff49548a.gif 330w,
+        /posts/portfolio/project-sd/feature_hu_a72cb77232abf294.gif 660w,
+        /posts/portfolio/project-sd/feature_hu_e54b5665f2038c87.gif 1024w,
+        /posts/portfolio/project-sd/feature_hu_3e0ee4c682f6240a.gif 2x"
+        src="/posts/portfolio/project-sd/feature_hu_a72cb77232abf294.gif"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Made using behavior tree to dynamically create dialogue, whether to only display a text line or a question with multiple choices.</p>
+
+
+<h4 class="relative group"><strong>Radial Fade</strong> 
+    <div id="radial-fade" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#radial-fade" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/portfolio/project-sd/fadeDeath_hu_8a0d4681b989dcc5.gif 330w,
+        /posts/portfolio/project-sd/fadeDeath_hu_8adeb873cfcf7bb2.gif 660w,
+        /posts/portfolio/project-sd/fadeDeath_hu_52ec2f37e021eac3.gif 1024w,
+        /posts/portfolio/project-sd/fadeDeath_hu_fa7cd79e68237d9b.gif 2x"
+        src="/posts/portfolio/project-sd/fadeDeath_hu_8adeb873cfcf7bb2.gif"
+        alt=""
+      />
+      
+    </figure>
+
+This Fade out effect is made using a plane positioned in front of the player camera. And the radial fade effect is controlled in the blueprint by changing the material parameter value</p>
+
+
+<h4 class="relative group"><strong>Explosion</strong> 
+    <div id="explosion" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#explosion" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/portfolio/project-sd/explosion_hu_e7a33f946a04f2bd.gif 330w,
+        /posts/portfolio/project-sd/explosion_hu_e2a0713b9e83a250.gif 660w,
+        /posts/portfolio/project-sd/explosion_hu_4d243566583c25ac.gif 1024w,
+        /posts/portfolio/project-sd/explosion_hu_b7e4b771eafe0494.gif 2x"
+        src="/posts/portfolio/project-sd/explosion_hu_e2a0713b9e83a250.gif"
+        alt=""
+      />
+      
+    </figure>
+</p>
+
+
+<h4 class="relative group"><strong>Jump, Wall Jump, Mantle System</strong> 
+    <div id="jump-wall-jump-mantle-system" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#jump-wall-jump-mantle-system" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /posts/portfolio/project-sd/image5_hu_833376a00bbd467e.gif 330w,
+        /posts/portfolio/project-sd/image5_hu_b289fe2bcf2e7c9a.gif 660w,
+        /posts/portfolio/project-sd/image5_hu_7a06169ac901b8c9.gif 1024w,
+        /posts/portfolio/project-sd/image5_hu_7ef2abf1e8dcd475.gif 2x"
+        src="/posts/portfolio/project-sd/image5_hu_b289fe2bcf2e7c9a.gif"
+        alt=""
+      />
+      
+    </figure>
+</p>
 
 
 <h2 class="relative group">Links 

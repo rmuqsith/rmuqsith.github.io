@@ -87,6 +87,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/tags/level-design/</loc>
+    <lastmod>2024-08-04T11:17:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/tags/locomotion/</loc>
     <lastmod>2024-08-04T11:17:33+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -220,12 +226,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/posts/portfolio/hyper-casual/</loc>
-    <lastmod>2023-02-04T11:17:33+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/level-design/</loc>
     <lastmod>2023-02-04T11:17:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
