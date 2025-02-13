@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Univ Project on Rafid Muqsith</title>
-    <link>http://localhost:7871/tags/univ-project/</link>
+    <link>http://localhost:8053/tags/univ-project/</link>
     <description>Recent content in Univ Project on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Tue, 04 Feb 2020 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7871/tags/univ-project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2020 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:8053/tags/univ-project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Balarunta</title>
-      <link>http://localhost:7871/posts/portfolio/balarunta/</link>
+      <link>http://localhost:8053/posts/portfolio/balarunta/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7871/posts/portfolio/balarunta/</guid>
+      <guid>http://localhost:8053/posts/portfolio/balarunta/</guid>
       <description>A thesis project made for my bachelor&amp;rsquo;s degree. Waste collection app with a pet simulation feature.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/balarunta/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:8053/posts/portfolio/balarunta/feature.png" />
     </item>
     
     <item>
       <title>Hunter Forest</title>
-      <link>http://localhost:7871/posts/portfolio/hunter-forest/</link>
+      <link>http://localhost:8053/posts/portfolio/hunter-forest/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7871/posts/portfolio/hunter-forest/</guid>
+      <guid>http://localhost:8053/posts/portfolio/hunter-forest/</guid>
       <description>Play as a hunter and clear the forest from monsters.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/hunter-forest/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:8053/posts/portfolio/hunter-forest/feature.png" />
     </item>
     
     <item>
       <title>Protectean</title>
-      <link>http://localhost:7871/posts/portfolio/protectean/</link>
+      <link>http://localhost:8053/posts/portfolio/protectean/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7871/posts/portfolio/protectean/</guid>
+      <guid>http://localhost:8053/posts/portfolio/protectean/</guid>
       <description>Inspired by feeding frenzy where you play as a trash-eating slime to save the ocean.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/protectean/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:8053/posts/portfolio/protectean/feature.png" />
     </item>
     
     <item>
       <title>Brutal Boss Battle</title>
-      <link>http://localhost:7871/posts/portfolio/bbb/</link>
+      <link>http://localhost:8053/posts/portfolio/bbb/</link>
       <pubDate>Sun, 04 Feb 2018 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7871/posts/portfolio/bbb/</guid>
+      <guid>http://localhost:8053/posts/portfolio/bbb/</guid>
       <description>A boss battle game where you must defeat the enemy before the floor crumbles.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/bbb/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:8053/posts/portfolio/bbb/feature.gif" />
     </item>
     
     <item>
       <title>Mini Art Book</title>
-      <link>http://localhost:7871/posts/portfolio/mini-art-book/</link>
+      <link>http://localhost:8053/posts/portfolio/mini-art-book/</link>
       <pubDate>Sat, 04 Feb 2017 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7871/posts/portfolio/mini-art-book/</guid>
+      <guid>http://localhost:8053/posts/portfolio/mini-art-book/</guid>
       <description>Concept Art of a pirate crew made of fruits and vegetable in a mission of finding a sacred tree</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/mini-art-book/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:8053/posts/portfolio/mini-art-book/feature.gif" />
     </item>
     
     <item>
       <title>Traffic Traveller</title>
-      <link>http://localhost:7871/posts/portfolio/traffic-traveller/</link>
+      <link>http://localhost:8053/posts/portfolio/traffic-traveller/</link>
       <pubDate>Sat, 04 Feb 2017 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7871/posts/portfolio/traffic-traveller/</guid>
+      <guid>http://localhost:8053/posts/portfolio/traffic-traveller/</guid>
       <description>A 4-player board game where you must compete to reach the finish using dice and cards.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/traffic-traveller/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:8053/posts/portfolio/traffic-traveller/feature.gif" />
     </item>
     
   </channel>
