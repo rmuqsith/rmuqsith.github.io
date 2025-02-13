@@ -2,91 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Rafid Muqsith</title>
-    <link>http://localhost:7176/categories/programming/</link>
+    <link>http://localhost:7871/categories/programming/</link>
     <description>Recent content in Programming on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7176/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7871/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>IDAF F-16</title>
-      <link>http://localhost:7176/posts/portfolio/f-16/</link>
+      <link>http://localhost:7871/posts/portfolio/f-16/</link>
       <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/f-16/</guid>
+      <guid>http://localhost:7871/posts/portfolio/f-16/</guid>
       <description>An F-16 fighter jet simulator for the Indonesian Air Force, developed using SimBox SDK by SimiGon.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/f-16/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/f-16/feature.gif" />
     </item>
     
     <item>
       <title>Sari&#39;s Sacred Seed</title>
-      <link>http://localhost:7176/posts/portfolio/sss/</link>
+      <link>http://localhost:7871/posts/portfolio/sss/</link>
       <pubDate>Sun, 04 Aug 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/sss/</guid>
+      <guid>http://localhost:7871/posts/portfolio/sss/</guid>
       <description>A Vertical Slice of an action adventure game made for the GAMESEED 2024 Game Jam.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/sss/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/sss/feature.gif" />
     </item>
     
     <item>
       <title>FSHS</title>
-      <link>http://localhost:7176/posts/portfolio/fshs/</link>
+      <link>http://localhost:7871/posts/portfolio/fshs/</link>
       <pubDate>Sat, 04 May 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/fshs/</guid>
+      <guid>http://localhost:7871/posts/portfolio/fshs/</guid>
       <description>A desktop Ship Handling Simulator using VR headset for display and Azimuth Controller for input.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/fshs/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/fshs/feature.gif" />
     </item>
     
     <item>
       <title>FDS</title>
-      <link>http://localhost:7176/posts/portfolio/fds/</link>
+      <link>http://localhost:7871/posts/portfolio/fds/</link>
       <pubDate>Mon, 01 Jan 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/fds/</guid>
+      <guid>http://localhost:7871/posts/portfolio/fds/</guid>
       <description>A full rig Driving Simulator with cockpit setup using steering wheel, gear shifter, and MotionSystems.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/fds/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/fds/feature.gif" />
     </item>
     
     <item>
       <title>Hyper Casual</title>
-      <link>http://localhost:7176/posts/portfolio/hyper-casual/</link>
+      <link>http://localhost:7871/posts/portfolio/hyper-casual/</link>
       <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/hyper-casual/</guid>
+      <guid>http://localhost:7871/posts/portfolio/hyper-casual/</guid>
       <description>Developed 20+ games as part of MDL team and in collaboration with a few hyper casual publishers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/hyper-casual/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/hyper-casual/feature.png" />
     </item>
     
     <item>
       <title>Umbi-umbian</title>
-      <link>http://localhost:7176/posts/portfolio/umbi/</link>
+      <link>http://localhost:7871/posts/portfolio/umbi/</link>
       <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/umbi/</guid>
+      <guid>http://localhost:7871/posts/portfolio/umbi/</guid>
       <description>A 2D arcade game. React quickly and use powerups to avoid obstacles, collect coins to unlock new characters.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/umbi/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/umbi/feature.jpg" />
     </item>
     
     <item>
       <title>Balarunta</title>
-      <link>http://localhost:7176/posts/portfolio/balarunta/</link>
+      <link>http://localhost:7871/posts/portfolio/balarunta/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/balarunta/</guid>
+      <guid>http://localhost:7871/posts/portfolio/balarunta/</guid>
       <description>A thesis project made for my bachelor&amp;rsquo;s degree. Waste collection app with a pet simulation feature.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/balarunta/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/balarunta/feature.png" />
     </item>
     
     <item>
       <title>Protectean</title>
-      <link>http://localhost:7176/posts/portfolio/protectean/</link>
+      <link>http://localhost:7871/posts/portfolio/protectean/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/protectean/</guid>
+      <guid>http://localhost:7871/posts/portfolio/protectean/</guid>
       <description>Inspired by feeding frenzy where you play as a trash-eating slime to save the ocean.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/protectean/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/protectean/feature.png" />
     </item>
     
   </channel>

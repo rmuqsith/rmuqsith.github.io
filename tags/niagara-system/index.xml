@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Niagara System on Rafid Muqsith</title>
-    <link>http://localhost:7176/tags/niagara-system/</link>
+    <link>http://localhost:7871/tags/niagara-system/</link>
     <description>Recent content in Niagara System on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Sun, 04 Aug 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7176/tags/niagara-system/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Aug 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7871/tags/niagara-system/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sari&#39;s Sacred Seed</title>
-      <link>http://localhost:7176/posts/portfolio/sss/</link>
+      <link>http://localhost:7871/posts/portfolio/sss/</link>
       <pubDate>Sun, 04 Aug 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/sss/</guid>
+      <guid>http://localhost:7871/posts/portfolio/sss/</guid>
       <description>A Vertical Slice of an action adventure game made for the GAMESEED 2024 Game Jam.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/sss/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/sss/feature.gif" />
     </item>
     
     <item>
       <title>Shader, Material, and VFX</title>
-      <link>http://localhost:7176/posts/portfolio/shader-mat-vfx/</link>
+      <link>http://localhost:7871/posts/portfolio/shader-mat-vfx/</link>
       <pubDate>Thu, 04 Apr 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/shader-mat-vfx/</guid>
+      <guid>http://localhost:7871/posts/portfolio/shader-mat-vfx/</guid>
       <description>Exploring Unity ShaderGraph, ParticleSystem, UE5 Material, and UE5 Niagara System</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/shader-mat-vfx/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/shader-mat-vfx/feature.gif" />
     </item>
     
   </channel>

@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frys on Rafid Muqsith</title>
-    <link>http://localhost:7176/tags/frys/</link>
+    <link>http://localhost:7871/tags/frys/</link>
     <description>Recent content in Frys on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7176/tags/frys/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7871/tags/frys/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>IDAF F-16</title>
-      <link>http://localhost:7176/posts/portfolio/f-16/</link>
+      <link>http://localhost:7871/posts/portfolio/f-16/</link>
       <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/f-16/</guid>
+      <guid>http://localhost:7871/posts/portfolio/f-16/</guid>
       <description>An F-16 fighter jet simulator for the Indonesian Air Force, developed using SimBox SDK by SimiGon.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/f-16/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/f-16/feature.gif" />
     </item>
     
     <item>
       <title>FSHS</title>
-      <link>http://localhost:7176/posts/portfolio/fshs/</link>
+      <link>http://localhost:7871/posts/portfolio/fshs/</link>
       <pubDate>Sat, 04 May 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/fshs/</guid>
+      <guid>http://localhost:7871/posts/portfolio/fshs/</guid>
       <description>A desktop Ship Handling Simulator using VR headset for display and Azimuth Controller for input.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/fshs/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/fshs/feature.gif" />
     </item>
     
     <item>
       <title>FDS</title>
-      <link>http://localhost:7176/posts/portfolio/fds/</link>
+      <link>http://localhost:7871/posts/portfolio/fds/</link>
       <pubDate>Mon, 01 Jan 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/fds/</guid>
+      <guid>http://localhost:7871/posts/portfolio/fds/</guid>
       <description>A full rig Driving Simulator with cockpit setup using steering wheel, gear shifter, and MotionSystems.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/fds/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/fds/feature.gif" />
     </item>
     
   </channel>

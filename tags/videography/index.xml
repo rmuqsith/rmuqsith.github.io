@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Videography on Rafid Muqsith</title>
-    <link>http://localhost:7176/tags/videography/</link>
+    <link>http://localhost:7871/tags/videography/</link>
     <description>Recent content in Videography on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Thu, 04 Feb 2021 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7176/tags/videography/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Feb 2021 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7871/tags/videography/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Photo-Videography</title>
-      <link>http://localhost:7176/posts/portfolio/photo-video/</link>
+      <link>http://localhost:7871/posts/portfolio/photo-video/</link>
       <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:7176/posts/portfolio/photo-video/</guid>
+      <guid>http://localhost:7871/posts/portfolio/photo-video/</guid>
       <description>Personal Work &amp;amp; Freelance Projects in Photo and Videography</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/photo-video/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7871/posts/portfolio/photo-video/feature.gif" />
     </item>
     
   </channel>
