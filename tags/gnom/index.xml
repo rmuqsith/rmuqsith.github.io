@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gnom on Rafid Muqsith</title>
-    <link>http://localhost:5876/tags/gnom/</link>
+    <link>http://localhost:7176/tags/gnom/</link>
     <description>Recent content in Gnom on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Fri, 04 Feb 2022 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:5876/tags/gnom/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7176/tags/gnom/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Kago</title>
-      <link>http://localhost:5876/posts/portfolio/kago/</link>
+      <link>http://localhost:7176/posts/portfolio/kago/</link>
       <pubDate>Fri, 04 Feb 2022 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/kago/</guid>
+      <guid>http://localhost:7176/posts/portfolio/kago/</guid>
       <description>Point-and-Click Narrative Puzzle Game made for the GAMESEED 2022 Game Jam</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/kago/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/kago/feature.png" />
     </item>
     
     <item>
       <title>Project P</title>
-      <link>http://localhost:5876/posts/portfolio/project-p/</link>
+      <link>http://localhost:7176/posts/portfolio/project-p/</link>
       <pubDate>Fri, 04 Feb 2022 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/project-p/</guid>
+      <guid>http://localhost:7176/posts/portfolio/project-p/</guid>
       <description>A 3D third-person hack and slash game set in a city park filled with homeless goblins.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/project-p/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/project-p/feature.png" />
     </item>
     
     <item>
       <title>Crumbrawl</title>
-      <link>http://localhost:5876/posts/portfolio/crumbrawl/</link>
+      <link>http://localhost:7176/posts/portfolio/crumbrawl/</link>
       <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/crumbrawl/</guid>
+      <guid>http://localhost:7176/posts/portfolio/crumbrawl/</guid>
       <description>A quick prototype of a multiplayer game. Survive the crumbling island and fight against other players.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/crumbrawl/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/crumbrawl/feature.gif" />
     </item>
     
     <item>
       <title>Umbi-umbian</title>
-      <link>http://localhost:5876/posts/portfolio/umbi/</link>
+      <link>http://localhost:7176/posts/portfolio/umbi/</link>
       <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/umbi/</guid>
+      <guid>http://localhost:7176/posts/portfolio/umbi/</guid>
       <description>A 2D arcade game. React quickly and use powerups to avoid obstacles, collect coins to unlock new characters.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/umbi/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/umbi/feature.jpg" />
     </item>
     
   </channel>

@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Level Design on Rafid Muqsith</title>
-    <link>http://localhost:5876/tags/level-design/</link>
+    <link>http://localhost:7176/tags/level-design/</link>
     <description>Recent content in Level Design on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Sun, 04 Aug 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:5876/tags/level-design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Aug 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7176/tags/level-design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sari&#39;s Sacred Seed</title>
-      <link>http://localhost:5876/posts/portfolio/sss/</link>
+      <link>http://localhost:7176/posts/portfolio/sss/</link>
       <pubDate>Sun, 04 Aug 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/sss/</guid>
+      <guid>http://localhost:7176/posts/portfolio/sss/</guid>
       <description>A Vertical Slice of an action adventure game made for the GAMESEED 2024 Game Jam.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/sss/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/sss/feature.gif" />
     </item>
     
     <item>
       <title>Project SD</title>
-      <link>http://localhost:5876/posts/portfolio/project-sd/</link>
+      <link>http://localhost:7176/posts/portfolio/project-sd/</link>
       <pubDate>Tue, 04 Jun 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/project-sd/</guid>
+      <guid>http://localhost:7176/posts/portfolio/project-sd/</guid>
       <description>A prototype project of a platformer game made in UE5.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/project-sd/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/project-sd/feature.gif" />
     </item>
     
     <item>
       <title>Hyper Casual</title>
-      <link>http://localhost:5876/posts/portfolio/hyper-casual/</link>
+      <link>http://localhost:7176/posts/portfolio/hyper-casual/</link>
       <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/hyper-casual/</guid>
+      <guid>http://localhost:7176/posts/portfolio/hyper-casual/</guid>
       <description>Developed 20+ games as part of MDL team and in collaboration with a few hyper casual publishers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/hyper-casual/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/hyper-casual/feature.png" />
     </item>
     
     <item>
       <title>Project P</title>
-      <link>http://localhost:5876/posts/portfolio/project-p/</link>
+      <link>http://localhost:7176/posts/portfolio/project-p/</link>
       <pubDate>Fri, 04 Feb 2022 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/project-p/</guid>
+      <guid>http://localhost:7176/posts/portfolio/project-p/</guid>
       <description>A 3D third-person hack and slash game set in a city park filled with homeless goblins.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/project-p/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/project-p/feature.png" />
     </item>
     
   </channel>

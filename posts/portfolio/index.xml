@@ -2,221 +2,221 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Rafid Muqsith</title>
-    <link>http://localhost:5876/posts/portfolio/</link>
+    <link>http://localhost:7176/posts/portfolio/</link>
     <description>Recent content in Portfolio on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:5876/posts/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:7176/posts/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>IDAF F-16</title>
-      <link>http://localhost:5876/posts/portfolio/f-16/</link>
+      <link>http://localhost:7176/posts/portfolio/f-16/</link>
       <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/f-16/</guid>
+      <guid>http://localhost:7176/posts/portfolio/f-16/</guid>
       <description>An F-16 fighter jet simulator for the Indonesian Air Force, developed using SimBox SDK by SimiGon.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/f-16/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/f-16/feature.gif" />
     </item>
     
     <item>
       <title>Sari&#39;s Sacred Seed</title>
-      <link>http://localhost:5876/posts/portfolio/sss/</link>
+      <link>http://localhost:7176/posts/portfolio/sss/</link>
       <pubDate>Sun, 04 Aug 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/sss/</guid>
+      <guid>http://localhost:7176/posts/portfolio/sss/</guid>
       <description>A Vertical Slice of an action adventure game made for the GAMESEED 2024 Game Jam.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/sss/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/sss/feature.gif" />
     </item>
     
     <item>
       <title>Online Courses</title>
-      <link>http://localhost:5876/posts/portfolio/courses/</link>
+      <link>http://localhost:7176/posts/portfolio/courses/</link>
       <pubDate>Thu, 04 Jul 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/courses/</guid>
+      <guid>http://localhost:7176/posts/portfolio/courses/</guid>
       <description>Some recent topics: UE5 C++, C++ for Game Development, Unity VR.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/courses/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/courses/feature.gif" />
     </item>
     
     <item>
       <title>Project SD</title>
-      <link>http://localhost:5876/posts/portfolio/project-sd/</link>
+      <link>http://localhost:7176/posts/portfolio/project-sd/</link>
       <pubDate>Tue, 04 Jun 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/project-sd/</guid>
+      <guid>http://localhost:7176/posts/portfolio/project-sd/</guid>
       <description>A prototype project of a platformer game made in UE5.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/project-sd/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/project-sd/feature.gif" />
     </item>
     
     <item>
       <title>FSHS</title>
-      <link>http://localhost:5876/posts/portfolio/fshs/</link>
+      <link>http://localhost:7176/posts/portfolio/fshs/</link>
       <pubDate>Sat, 04 May 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/fshs/</guid>
+      <guid>http://localhost:7176/posts/portfolio/fshs/</guid>
       <description>A desktop Ship Handling Simulator using VR headset for display and Azimuth Controller for input.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/fshs/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/fshs/feature.gif" />
     </item>
     
     <item>
       <title>Shader, Material, and VFX</title>
-      <link>http://localhost:5876/posts/portfolio/shader-mat-vfx/</link>
+      <link>http://localhost:7176/posts/portfolio/shader-mat-vfx/</link>
       <pubDate>Thu, 04 Apr 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/shader-mat-vfx/</guid>
+      <guid>http://localhost:7176/posts/portfolio/shader-mat-vfx/</guid>
       <description>Exploring Unity ShaderGraph, ParticleSystem, UE5 Material, and UE5 Niagara System</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/shader-mat-vfx/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/shader-mat-vfx/feature.gif" />
     </item>
     
     <item>
       <title>UE5 Traversal &amp; Combat</title>
-      <link>http://localhost:5876/posts/portfolio/ue5-traversal-combat/</link>
+      <link>http://localhost:7176/posts/portfolio/ue5-traversal-combat/</link>
       <pubDate>Sun, 04 Feb 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/ue5-traversal-combat/</guid>
+      <guid>http://localhost:7176/posts/portfolio/ue5-traversal-combat/</guid>
       <description>A Character traversal and combat mechanic based on UE5 Manny Skeleton and implemented with MetaHuman character.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/ue5-traversal-combat/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/ue5-traversal-combat/feature.gif" />
     </item>
     
     <item>
       <title>FDS</title>
-      <link>http://localhost:5876/posts/portfolio/fds/</link>
+      <link>http://localhost:7176/posts/portfolio/fds/</link>
       <pubDate>Mon, 01 Jan 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/fds/</guid>
+      <guid>http://localhost:7176/posts/portfolio/fds/</guid>
       <description>A full rig Driving Simulator with cockpit setup using steering wheel, gear shifter, and MotionSystems.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/fds/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/fds/feature.gif" />
     </item>
     
     <item>
       <title>Hyper Casual</title>
-      <link>http://localhost:5876/posts/portfolio/hyper-casual/</link>
+      <link>http://localhost:7176/posts/portfolio/hyper-casual/</link>
       <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/hyper-casual/</guid>
+      <guid>http://localhost:7176/posts/portfolio/hyper-casual/</guid>
       <description>Developed 20+ games as part of MDL team and in collaboration with a few hyper casual publishers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/hyper-casual/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/hyper-casual/feature.png" />
     </item>
     
     <item>
       <title>Panjat Giant Pinang</title>
-      <link>http://localhost:5876/posts/portfolio/panjat-giant-pinang/</link>
+      <link>http://localhost:7176/posts/portfolio/panjat-giant-pinang/</link>
       <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/panjat-giant-pinang/</guid>
+      <guid>http://localhost:7176/posts/portfolio/panjat-giant-pinang/</guid>
       <description>A quick prototype of a platformer game made using UEFN when it first launched.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/panjat-giant-pinang/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/panjat-giant-pinang/feature.gif" />
     </item>
     
     <item>
       <title>Kago</title>
-      <link>http://localhost:5876/posts/portfolio/kago/</link>
+      <link>http://localhost:7176/posts/portfolio/kago/</link>
       <pubDate>Fri, 04 Feb 2022 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/kago/</guid>
+      <guid>http://localhost:7176/posts/portfolio/kago/</guid>
       <description>Point-and-Click Narrative Puzzle Game made for the GAMESEED 2022 Game Jam</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/kago/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/kago/feature.png" />
     </item>
     
     <item>
       <title>Project P</title>
-      <link>http://localhost:5876/posts/portfolio/project-p/</link>
+      <link>http://localhost:7176/posts/portfolio/project-p/</link>
       <pubDate>Fri, 04 Feb 2022 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/project-p/</guid>
+      <guid>http://localhost:7176/posts/portfolio/project-p/</guid>
       <description>A 3D third-person hack and slash game set in a city park filled with homeless goblins.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/project-p/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/project-p/feature.png" />
     </item>
     
     <item>
       <title>Crumbrawl</title>
-      <link>http://localhost:5876/posts/portfolio/crumbrawl/</link>
+      <link>http://localhost:7176/posts/portfolio/crumbrawl/</link>
       <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/crumbrawl/</guid>
+      <guid>http://localhost:7176/posts/portfolio/crumbrawl/</guid>
       <description>A quick prototype of a multiplayer game. Survive the crumbling island and fight against other players.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/crumbrawl/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/crumbrawl/feature.gif" />
     </item>
     
     <item>
       <title>Photo-Videography</title>
-      <link>http://localhost:5876/posts/portfolio/photo-video/</link>
+      <link>http://localhost:7176/posts/portfolio/photo-video/</link>
       <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/photo-video/</guid>
+      <guid>http://localhost:7176/posts/portfolio/photo-video/</guid>
       <description>Personal Work &amp;amp; Freelance Projects in Photo and Videography</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/photo-video/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/photo-video/feature.gif" />
     </item>
     
     <item>
       <title>Umbi-umbian</title>
-      <link>http://localhost:5876/posts/portfolio/umbi/</link>
+      <link>http://localhost:7176/posts/portfolio/umbi/</link>
       <pubDate>Thu, 04 Feb 2021 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/umbi/</guid>
+      <guid>http://localhost:7176/posts/portfolio/umbi/</guid>
       <description>A 2D arcade game. React quickly and use powerups to avoid obstacles, collect coins to unlock new characters.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/umbi/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/umbi/feature.jpg" />
     </item>
     
     <item>
       <title>Balarunta</title>
-      <link>http://localhost:5876/posts/portfolio/balarunta/</link>
+      <link>http://localhost:7176/posts/portfolio/balarunta/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/balarunta/</guid>
+      <guid>http://localhost:7176/posts/portfolio/balarunta/</guid>
       <description>A thesis project made for my bachelor&amp;rsquo;s degree. Waste collection app with a pet simulation feature.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/balarunta/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/balarunta/feature.png" />
     </item>
     
     <item>
       <title>Hunter Forest</title>
-      <link>http://localhost:5876/posts/portfolio/hunter-forest/</link>
+      <link>http://localhost:7176/posts/portfolio/hunter-forest/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/hunter-forest/</guid>
+      <guid>http://localhost:7176/posts/portfolio/hunter-forest/</guid>
       <description>Play as a hunter and clear the forest from monsters.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/hunter-forest/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/hunter-forest/feature.png" />
     </item>
     
     <item>
       <title>Protectean</title>
-      <link>http://localhost:5876/posts/portfolio/protectean/</link>
+      <link>http://localhost:7176/posts/portfolio/protectean/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/protectean/</guid>
+      <guid>http://localhost:7176/posts/portfolio/protectean/</guid>
       <description>Inspired by feeding frenzy where you play as a trash-eating slime to save the ocean.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/protectean/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/protectean/feature.png" />
     </item>
     
     <item>
       <title>Brutal Boss Battle</title>
-      <link>http://localhost:5876/posts/portfolio/bbb/</link>
+      <link>http://localhost:7176/posts/portfolio/bbb/</link>
       <pubDate>Sun, 04 Feb 2018 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/bbb/</guid>
+      <guid>http://localhost:7176/posts/portfolio/bbb/</guid>
       <description>A boss battle game where you must defeat the enemy before the floor crumbles.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/bbb/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/bbb/feature.gif" />
     </item>
     
     <item>
       <title>Mini Art Book</title>
-      <link>http://localhost:5876/posts/portfolio/mini-art-book/</link>
+      <link>http://localhost:7176/posts/portfolio/mini-art-book/</link>
       <pubDate>Sat, 04 Feb 2017 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/mini-art-book/</guid>
+      <guid>http://localhost:7176/posts/portfolio/mini-art-book/</guid>
       <description>Concept Art of a pirate crew made of fruits and vegetable in a mission of finding a sacred tree</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/mini-art-book/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/mini-art-book/feature.gif" />
     </item>
     
     <item>
       <title>Traffic Traveller</title>
-      <link>http://localhost:5876/posts/portfolio/traffic-traveller/</link>
+      <link>http://localhost:7176/posts/portfolio/traffic-traveller/</link>
       <pubDate>Sat, 04 Feb 2017 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:5876/posts/portfolio/traffic-traveller/</guid>
+      <guid>http://localhost:7176/posts/portfolio/traffic-traveller/</guid>
       <description>A 4-player board game where you must compete to reach the finish using dice and cards.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:5876/posts/portfolio/traffic-traveller/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:7176/posts/portfolio/traffic-traveller/feature.gif" />
     </item>
     
   </channel>
