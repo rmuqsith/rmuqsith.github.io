@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Rafid Muqsith</title>
-    <link>http://localhost:8053/tags/java/</link>
+    <link>http://localhost:1313/tags/java/</link>
     <description>Recent content in Java on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Tue, 04 Feb 2020 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:8053/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2020 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Balarunta</title>
-      <link>http://localhost:8053/posts/portfolio/balarunta/</link>
+      <link>http://localhost:1313/posts/portfolio/balarunta/</link>
       <pubDate>Tue, 04 Feb 2020 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:8053/posts/portfolio/balarunta/</guid>
+      <guid>http://localhost:1313/posts/portfolio/balarunta/</guid>
       <description>A thesis project made for my bachelor&amp;rsquo;s degree. Waste collection app with a pet simulation feature.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:8053/posts/portfolio/balarunta/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/balarunta/feature.png" />
     </item>
     
   </channel>

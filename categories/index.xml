@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rafid Muqsith</title>
-    <link>http://localhost:8053/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Rafid Muqsith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:8053/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Programming</title>
-      <link>http://localhost:8053/categories/programming/</link>
+      <link>http://localhost:1313/categories/programming/</link>
       <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:8053/categories/programming/</guid>
+      <guid>http://localhost:1313/categories/programming/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Simulation</title>
-      <link>http://localhost:8053/categories/simulation/</link>
+      <link>http://localhost:1313/categories/simulation/</link>
       <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:8053/categories/simulation/</guid>
+      <guid>http://localhost:1313/categories/simulation/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Game</title>
-      <link>http://localhost:8053/categories/game/</link>
+      <link>http://localhost:1313/categories/game/</link>
       <pubDate>Sun, 04 Aug 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:8053/categories/game/</guid>
+      <guid>http://localhost:1313/categories/game/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Game Design</title>
-      <link>http://localhost:8053/categories/game-design/</link>
+      <link>http://localhost:1313/categories/game-design/</link>
       <pubDate>Sun, 04 Aug 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:8053/categories/game-design/</guid>
+      <guid>http://localhost:1313/categories/game-design/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Blog</title>
-      <link>http://localhost:8053/categories/blog/</link>
+      <link>http://localhost:1313/categories/blog/</link>
       <pubDate>Tue, 16 Jul 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:8053/categories/blog/</guid>
+      <guid>http://localhost:1313/categories/blog/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Learning</title>
-      <link>http://localhost:8053/categories/learning/</link>
+      <link>http://localhost:1313/categories/learning/</link>
       <pubDate>Thu, 04 Jul 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:8053/categories/learning/</guid>
+      <guid>http://localhost:1313/categories/learning/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Creative</title>
-      <link>http://localhost:8053/categories/creative/</link>
+      <link>http://localhost:1313/categories/creative/</link>
       <pubDate>Thu, 04 Apr 2024 11:17:33 +0700</pubDate>
       
-      <guid>http://localhost:8053/categories/creative/</guid>
+      <guid>http://localhost:1313/categories/creative/</guid>
       <description></description>
       
     </item>
