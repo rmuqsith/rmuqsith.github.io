@@ -235,16 +235,31 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/cv/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1QT_QZmWflgze6jCmil7aB3Iq2Yrwa3C2cAD5QL68WPs/export?format=pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Download CV&lt;/strong&gt; 
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Curriculum Vitae 
+    &lt;div id=&#34;curriculum-vitae&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#curriculum-vitae&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
 
-  &lt;span class=&#34;relative inline-block align-text-bottom icon&#34;&gt;
-    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;
-&lt;path fill=&#34;currentColor&#34; d=&#34;M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zM432 456c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z&#34;/&gt;&lt;/svg&gt;
-  &lt;/span&gt;
 
-&lt;/a&gt;
-or
-&lt;a href=&#34;../resume&#34;&gt;&lt;strong&gt;view resume&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;h2 class=&#34;relative group&#34;&gt;&lt;strong&gt;Professional Experience&lt;/strong&gt; 
+    &lt;div id=&#34;professional-experience&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#professional-experience&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Software Engineer,&lt;/strong&gt; &lt;em&gt;Fazza Royal Yantasir Simulasi (FRYS)&lt;/em&gt;, Tangerang Selatan&lt;br&gt;
+&lt;em&gt;April 2022 - Present | Full-Time&lt;/em&gt;&lt;br&gt;
+Fazza Royal Yantasir Simulasi (FRYS) is a simulation and technology company.&lt;/p&gt;</description>
       
     </item>
     
@@ -254,16 +269,29 @@ or
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/resume/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1K9HQE1Su3DovGhnilNtqmJ3lQKVEBhNCgj5lCHu8Tj8/export?format=pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Download resume&lt;/strong&gt; 
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Resume 
+    &lt;div id=&#34;resume&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#resume&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
 
-  &lt;span class=&#34;relative inline-block align-text-bottom icon&#34;&gt;
-    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;
-&lt;path fill=&#34;currentColor&#34; d=&#34;M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zM432 456c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z&#34;/&gt;&lt;/svg&gt;
-  &lt;/span&gt;
 
-&lt;/a&gt;
-or
-&lt;a href=&#34;../cv&#34;&gt;view CV&lt;/a&gt;&lt;/p&gt;</description>
+&lt;h2 class=&#34;relative group&#34;&gt;&lt;strong&gt;About&lt;/strong&gt; 
+    &lt;div id=&#34;about&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#about&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Software Engineer with 3+ years of experience in game development, simulation software, and tools programming. Skilled in Unity, Unreal Engine, C++, and C#. Passionate about creating immersive experiences, enhancing performance, and optimizing workflows. Eager to contribute technical expertise and creativity to a collaborative team environment.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/resume/featured.jpg" />
     </item>
     
