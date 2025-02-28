@@ -10,12 +10,12 @@
     <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/posts/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Fighter Jet Simulation</title>
+      <title>Classified Simulation Project</title>
       <link>http://localhost:1313/posts/portfolio/f-16/</link>
       <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
       
       <guid>http://localhost:1313/posts/portfolio/f-16/</guid>
-      <description>Classified Project – Fighter Jet Simulation</description>
+      <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/f-16/feature.jpg" />
     </item>
     
