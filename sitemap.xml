@@ -27,6 +27,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/tags/defense/</loc>
+    <lastmod>2025-02-04T11:17:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/posts/portfolio/f-16/</loc>
     <lastmod>2025-02-04T11:17:33+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -100,6 +106,12 @@
   </url>
   <url>
     <loc>http://localhost:1313/posts/portfolio/sss/</loc>
+    <lastmod>2024-08-04T11:17:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/tech-art/</loc>
     <lastmod>2024-08-04T11:17:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -232,6 +244,12 @@
   </url>
   <url>
     <loc>http://localhost:1313/posts/portfolio/panjat-giant-pinang/</loc>
+    <lastmod>2023-02-04T11:17:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/pcg/</loc>
     <lastmod>2023-02-04T11:17:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

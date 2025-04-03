@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>Defense</title>
+      <link>http://localhost:1313/tags/defense/</link>
+      <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/defense/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Wip</title>
       <link>http://localhost:1313/tags/wip/</link>
       <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
@@ -155,6 +165,16 @@
       <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
       
       <guid>http://localhost:1313/tags/mdl/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Pcg</title>
+      <link>http://localhost:1313/tags/pcg/</link>
+      <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/pcg/</guid>
       <description></description>
       
     </item>
