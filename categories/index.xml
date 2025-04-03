@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
-    <lastBuildDate>Tue, 04 Feb 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Mar 2025 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Programming</title>
       <link>http://localhost:1313/categories/programming/</link>
-      <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
+      <pubDate>Tue, 04 Mar 2025 11:17:33 +0700</pubDate>
       
       <guid>http://localhost:1313/categories/programming/</guid>
       <description></description>
@@ -22,9 +22,19 @@
     <item>
       <title>Simulation</title>
       <link>http://localhost:1313/categories/simulation/</link>
-      <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
+      <pubDate>Tue, 04 Mar 2025 11:17:33 +0700</pubDate>
       
       <guid>http://localhost:1313/categories/simulation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>QA</title>
+      <link>http://localhost:1313/categories/qa/</link>
+      <pubDate>Tue, 04 Feb 2025 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/categories/qa/</guid>
       <description></description>
       
     </item>
