@@ -25,8 +25,18 @@
       <pubDate>Tue, 04 Jun 2024 11:17:33 +0700</pubDate>
       
       <guid>http://localhost:1313/posts/portfolio/project-sd/</guid>
-      <description>A prototype project of a platformer game made in UE5.</description>
+      <description>A solo project of a platformer game made in UE5.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/project-sd/feature.gif" />
+    </item>
+    
+    <item>
+      <title>FSHS</title>
+      <link>http://localhost:1313/posts/portfolio/fshs/</link>
+      <pubDate>Sat, 04 May 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/fshs/</guid>
+      <description>A desktop Ship Handling Simulator using VR headset for display and Azimuth Controller for input.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/fshs/feature.gif" />
     </item>
     
     <item>
@@ -47,6 +57,16 @@
       <guid>http://localhost:1313/posts/portfolio/ue5-traversal-combat/</guid>
       <description>A Character traversal and combat mechanic based on UE5 Manny Skeleton and implemented with MetaHuman character.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/ue5-traversal-combat/feature.gif" />
+    </item>
+    
+    <item>
+      <title>FDS</title>
+      <link>http://localhost:1313/posts/portfolio/fds/</link>
+      <pubDate>Mon, 01 Jan 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/fds/</guid>
+      <description>A full rig Driving Simulator with cockpit setup using steering wheel, gear shifter, and MotionSystems.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/fds/feature.gif" />
     </item>
     
     <item>
