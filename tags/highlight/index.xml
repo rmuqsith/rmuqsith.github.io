@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Highlight on Rafid Muqsith</title>
+    <link>http://localhost:1313/tags/highlight/</link>
+    <description>Recent content in Highlight on Rafid Muqsith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Muhammad Rafid Muqsith</copyright>
+    <lastBuildDate>Sun, 04 Aug 2024 11:17:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/highlight/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sari&#39;s Sacred Seed</title>
+      <link>http://localhost:1313/posts/portfolio/sss/</link>
+      <pubDate>Sun, 04 Aug 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/sss/</guid>
+      <description>A Vertical Slice of an action adventure game made for the GAMESEED 2024 Game Jam.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/sss/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Creating a Cartoon-Style Circular Fade-to-Black Transition in UE5</title>
+      <link>http://localhost:1313/posts/blog/circular-fade/</link>
+      <pubDate>Tue, 16 Jul 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/blog/circular-fade/</guid>
+      <description>While developing my platformer game a while ago, I wanted to add a classic circular fade-to-black transition for when the player dies — similar to what you might see in cartoons or 3D Mario games.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/blog/circular-fade/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Project SD</title>
+      <link>http://localhost:1313/posts/portfolio/project-sd/</link>
+      <pubDate>Tue, 04 Jun 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/project-sd/</guid>
+      <description>A solo project of a platformer game made in UE5.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/project-sd/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Shader, Material, and VFX</title>
+      <link>http://localhost:1313/posts/portfolio/shader-mat-vfx/</link>
+      <pubDate>Thu, 04 Apr 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/shader-mat-vfx/</guid>
+      <description>Exploring Unity ShaderGraph, ParticleSystem, UE5 Material, and UE5 Niagara System</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/shader-mat-vfx/feature.gif" />
+    </item>
+    
+    <item>
+      <title>UE5 Traversal &amp; Combat</title>
+      <link>http://localhost:1313/posts/portfolio/ue5-traversal-combat/</link>
+      <pubDate>Sun, 04 Feb 2024 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/ue5-traversal-combat/</guid>
+      <description>A Character traversal and combat mechanic based on UE5 Manny Skeleton and implemented with MetaHuman character.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/ue5-traversal-combat/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Hyper Casual</title>
+      <link>http://localhost:1313/posts/portfolio/hyper-casual/</link>
+      <pubDate>Sat, 04 Feb 2023 11:17:33 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/portfolio/hyper-casual/</guid>
+      <description>Developed 20+ games as part of MDL team and in collaboration with a few hyper casual publishers.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/portfolio/hyper-casual/feature.png" />
+    </item>
+    
+  </channel>
+</rss>
