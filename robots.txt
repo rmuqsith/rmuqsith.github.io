@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rmuqsith.github.io/sitemap.xml

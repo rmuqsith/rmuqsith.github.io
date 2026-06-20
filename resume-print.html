@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Resume - Rafid Muqsith</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.5;
+    color: #1a1a1a;
+    background: #f0f0f0;
+    padding: 24px;
+  }
+  .page {
+    max-width: 210mm;
+    margin: 0 auto;
+    background: white;
+    padding: 50px 55px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .subtitle {
+    font-size: 11pt;
+    color: #555;
+    margin-bottom: 4px;
+  }
+  .contact {
+    font-size: 9.5pt;
+    color: #666;
+    margin-bottom: 18px;
+  }
+  .contact a { color: #2563eb; text-decoration: none; }
+  h2 {
+    font-size: 12pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+    border-bottom: 1.5px solid #1a1a1a;
+    padding-bottom: 3px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  .about {
+    font-size: 10pt;
+    color: #444;
+    margin-bottom: 4px;
+    line-height: 1.5;
+  }
+  .entry { margin-bottom: 14px; }
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  .entry-title {
+    font-weight: 700;
+    font-size: 11pt;
+  }
+  .entry-date {
+    font-size: 10pt;
+    color: #666;
+    white-space: nowrap;
+  }
+  .entry-company {
+    font-weight: 500;
+    color: #555;
+    font-size: 10.5pt;
+  }
+  .sub-entry {
+    margin-left: 0;
+    padding-left: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-left: 2px solid #ccc;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul li {
+    font-size: 9.5pt;
+    color: #444;
+    padding-left: 14px;
+    position: relative;
+    margin-bottom: 2px;
+  }
+  ul li::before {
+    content: "\2022";
+    position: absolute;
+    left: 2px;
+    color: #888;
+  }
+  .sub-entry ul li { font-size: 9pt; }
+  .sub-entry ul li::before { left: 0; }
+  .skills-inline {
+    font-size: 9.5pt;
+    color: #444;
+    line-height: 1.7;
+  }
+  a { color: #2563eb; text-decoration: none; }
+
+  .toolbar {
+    max-width: 210mm;
+    margin: 0 auto 16px auto;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  .print-btn {
+    background: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 10pt;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .print-btn:hover { background: #333; }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page { box-shadow: none; padding: 32px 48px; }
+    .toolbar { display: none; }
+    .sub-entry { page-break-inside: avoid; }
+    .entry { page-break-inside: avoid; }
+  }
+</style>
+<script defer src="https://umami.ramu.web.id/script.js" data-website-id="05226b0a-b99d-434d-aaf3-2f242babf860"></script>
+</head>
+<body>
+<div class="toolbar">
+  <button class="print-btn" onclick="window.print()">&#128196; Download PDF</button>
+</div>
+<div class="page" id="resume-content">
+
+<h1>Rafid Muqsith</h1>
+<div class="subtitle">Technical Artist</div>
+<div class="contact">rafidmuqsith@gmail.com &bull; linkedin.com/in/rafidmuqsith &bull; github.com/rmuqsith</div>
+
+<h2>About</h2>
+<div class="about">
+Technical-minded creative with 4+ years of experience spanning game development, simulation software, and technical art. Passionate about solving problems at the intersection of art and engineering&mdash;building custom tools, optimizing visuals through shaders and VFX, and streamlining art pipelines.
+</div>
+
+<h2>Experience</h2>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">Technical Artist</span>
+    <span class="entry-date">Sep 2025 - Present</span>
+  </div>
+  <div class="entry-company">Agate &mdash; Bandung</div>
+
+  <div class="sub-entry">
+    <div class="entry-header">
+      <span class="entry-title">Port of Jumanah</span>
+      <span class="entry-date">Oct 2025 - Mar 2026</span>
+    </div>
+    <ul>
+      <li>Supported visual polish, shader/VFX optimization, and material workflows.</li>
+      <li>Built a custom texture batch tool for alpha channel fixes (CSP export bleed).</li>
+      <li>Performance profiling and optimization. <a href="https://store.steampowered.com/app/2998920/Port_of_Jumanah/">Steam</a></li>
+    </ul>
+  </div>
+
+  <div class="sub-entry">
+    <div class="entry-header">
+      <span class="entry-title">FNA (Mobile Game)</span>
+      <span class="entry-date">Apr 2026 - Present</span>
+    </div>
+    <ul>
+      <li>Developed VFX materials, shaders, Niagara effects, and custom editor tools.</li>
+      <li>Built a Character Viewer system in UE5 for internal animation and VFX preview.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">Software Engineer</span>
+    <span class="entry-date">Apr 2022 - Sep 2025</span>
+  </div>
+  <div class="entry-company">Private Company &mdash; Tangerang Selatan</div>
+  <ul>
+    <li>Optimized real-time simulation performance through 3D scene and asset profiling.</li>
+    <li>Developed custom Unity editor tools to automate asset variations.</li>
+    <li>Set up AWS-based file sharing and version control systems for ISO 27001 certification.</li>
+    <li>Introduced PlasticSCM and standardized file naming conventions.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">Stage / Level Designer</span>
+    <span class="entry-date">Mar 2022 - Jun 2023</span>
+  </div>
+  <div class="entry-company">Maentrus Digital Lab (MDL) &mdash; Remote</div>
+  <ul>
+    <li>Created game ideas, design documents, and procedural generation scripts for level design.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">Game Programmer</span>
+    <span class="entry-date">Aug 2021 - Feb 2022</span>
+  </div>
+  <div class="entry-company">Gnom Studios &mdash; Bekasi</div>
+  <ul>
+    <li>Integrated Firebase, prototyped multiplayer (Unity + Photon PUN), configured SFX/VFX.</li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">B.S. Computer Science</span>
+    <span class="entry-date">Dec 2021</span>
+  </div>
+  <div class="entry-company">BINUS University &mdash; Jakarta</div>
+  <div class="entry-desc">Game Application &amp; Technology Program &bull; GPA: 3.30/4.00</div>
+  <div class="entry-desc"><strong>Thesis:</strong> <em>Balarunta: Gamification of an Application for Plastic Waste Prevention on Android</em></div>
+</div>
+
+<h2>Skills</h2>
+<div class="skills-inline">
+<strong>Languages:</strong> C++, C#, Python &bull;
+<strong>Engines:</strong> Unreal Engine (C++, Blueprint), Unity (C#) &bull;
+<strong>VCS:</strong> Git, PlasticSCM &bull;
+<strong>Tools:</strong> Visual Studio, JetBrains Rider, Blender, Adobe Suite
+</div>
+
+</div>
+</body>
+</html>
