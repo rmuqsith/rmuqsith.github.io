@@ -1,256 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>CV - Rafid Muqsith</title>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<title>Rafid Muqsith &mdash; CV</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { margin: 1.5cm 2cm; size: A4; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: 'Inter', -apple-system, sans-serif;
-    font-size: 10.5pt;
-    line-height: 1.5;
-    color: #1a1a1a;
-    background: #f0f0f0;
-    padding: 24px;
-  }
-  .page {
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #000;
     max-width: 210mm;
     margin: 0 auto;
-    background: white;
-    padding: 50px 55px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 1.5cm 2cm;
   }
-  h1 {
-    font-size: 22pt;
-    font-weight: 700;
-    margin-bottom: 2px;
-  }
-  .subtitle {
-    font-size: 11pt;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  h2 {
-    font-size: 12pt;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #333;
-    border-bottom: 1.5px solid #1a1a1a;
-    padding-bottom: 3px;
-    margin-top: 22px;
-    margin-bottom: 10px;
-  }
-  .entry { margin-bottom: 14px; }
-  .entry-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-  }
-  .entry-title {
-    font-weight: 700;
-    font-size: 11pt;
-  }
-  .entry-date {
-    font-size: 10pt;
-    color: #666;
-    white-space: nowrap;
-  }
-  .entry-company {
-    font-weight: 500;
-    color: #555;
-    font-size: 10.5pt;
-  }
-  .entry-location {
-    color: #777;
-    font-size: 10pt;
-  }
-  .entry-desc {
-    font-size: 9.5pt;
-    color: #444;
-    margin-top: 2px;
-  }
-  .entry-desc i { color: #666; font-size: 9pt; }
-  .sub-entry {
-    margin-left: 0;
-    padding-left: 14px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    border-left: 2px solid #ccc;
-  }
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  ul li {
-    font-size: 9.5pt;
-    color: #444;
-    padding-left: 14px;
-    position: relative;
-    margin-bottom: 2px;
-  }
-  ul li::before {
-    content: "\2022";
-    position: absolute;
-    left: 2px;
-    color: #888;
-  }
-  .sub-entry ul li { font-size: 9pt; }
-  .sub-entry ul li::before { left: 0; }
-  .link { color: #2563eb; text-decoration: none; }
-  .skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px 20px;
-  }
-  .skills-grid span {
-    font-size: 9.5pt;
-  }
-  .skills-grid strong { margin-right: 4px; }
-
-  .toolbar {
-    max-width: 210mm;
-    margin: 0 auto 16px auto;
-    display: flex;
-    gap: 10px;
-    justify-content: flex-end;
-  }
-  .print-btn {
-    background: #1a1a1a;
-    color: white;
-    border: none;
-    padding: 10px 22px;
-    border-radius: 6px;
-    font-size: 10pt;
-    font-family: 'Inter', sans-serif;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-  }
-  .print-btn:hover { background: #333; }
-
   @media print {
-    body { background: white; padding: 0; }
-    .page { box-shadow: none; padding: 32px 48px; }
-    .toolbar { display: none; }
-    .sub-entry { page-break-inside: avoid; }
-    .entry { page-break-inside: avoid; }
+    body { padding: 0; }
+    .no-print { display: none !important; }
   }
+  h1.title { font-size: 22pt; font-weight: 700; text-align: center; margin-bottom: 0.15em; }
+  .subtitle { text-align: center; font-size: 11pt; color: #444; margin-bottom: 1em; padding-bottom: 0.8em; border-bottom: 1px solid #999; }
+  h2 { font-size: 12pt; font-weight: 700; border-bottom: 1px solid #999; padding-bottom: 0.15em; margin: 0.8em 0 0.4em 0; text-transform: uppercase; letter-spacing: 0.05em; }
+  h3 { font-size: 10.5pt; font-weight: 600; margin: 0.05em 0 0.1em 0; }
+  h4 { font-size: 10pt; font-weight: 600; font-style: italic; margin: 0.1em 0; }
+  p { margin: 0.1em 0; }
+  ul { margin: 0.1em 0 0.4em 1.2em; }
+  li { font-size: 9.5pt; margin-bottom: 0.05em; }
+  .period { font-size: 9pt; color: #555; }
+  .footer { text-align: center; font-size: 8pt; color: #999; margin-top: 2em; border-top: 1px solid #ddd; padding-top: 0.5em; }
+  .print-btn { text-align: center; margin: 0 0 1.5em 0; }
+  .print-btn button { background: #000; color: #fff; border: none; padding: 0.5em 1.5em; font-size: 10pt; cursor: pointer; }
+  .print-btn button:hover { opacity: 0.8; }
 </style>
-<script defer src="https://umami.ramu.web.id/script.js" data-website-id="05226b0a-b99d-434d-aaf3-2f242babf860"></script>
 </head>
 <body>
-<div class="toolbar">
-  <button class="print-btn" onclick="window.print()">&#128196; Download PDF</button>
-</div>
-<div class="page" id="cv-content">
 
-<h1>Rafid Muqsith</h1>
-<div class="subtitle">Technical Artist &bull; Bandung, Indonesia</div>
+<div class="no-print print-btn">
+  <button onclick="window.print()">Download PDF / Print (Ctrl+P)</button>
+</div>
+
+<h1 class="title">Muhammad Rafid Muqsith</h1>
+<div class="subtitle">Indonesia &mdash; rafidmuqsith@gmail.com &mdash; linkedin.com/in/rafidmuqsith &mdash; github.com/rmuqsith</div>
 
 <h2>Professional Experience</h2>
 
-<div class="entry">
-  <div class="entry-header">
-    <span class="entry-title">Technical Artist</span>
-    <span class="entry-date">Sep 2025 - Present</span>
-  </div>
-  <div class="entry-company">Agate &mdash; Bandung</div>
-  <div class="entry-desc"><i>Game development studio. Shipped Port of Jumanah on Steam; currently developing a stylized multiplayer mobile game (UE5.5).</i></div>
+<h3>Technical Artist</h3>
+<p><strong>Agate</strong>, Bandung &mdash; <span class="period">September 2025 - Present | Full-Time</span></p>
+<p><em>Port of Jumanah</em> (October 2025 - March 2026) &mdash; <a href="https://store.steampowered.com/app/2998920/Port_of_Jumanah/">Steam</a> — A 2.5D rogue-lite action-adventure with underwater setting and Middle Eastern folklore art direction.</p>
+<ul>
+<li>Supported visual polish, shader/VFX optimization, and material workflows.</li>
+<li>Built a custom texture batch tool to fix alpha channel bleeding on masked materials.</li>
+<li>Profiling and optimization for real-time performance.</li>
+</ul>
+<p><em>FNA</em> (April 2026 - Present) &mdash; A stylized multiplayer mobile game built in Unreal Engine 5.5.</p>
+<ul>
+<li>Developed and maintained VFX materials, shaders, and Niagara effects.</li>
+<li>Created custom editor tools to streamline art pipeline and reduce manual work.</li>
+<li>Built a Character Viewer system in UE5 for internal animation and VFX preview.</li>
+</ul>
 
-  <div class="sub-entry">
-    <div class="entry-header">
-      <span class="entry-title">Port of Jumanah</span>
-      <span class="entry-date">Oct 2025 - Mar 2026</span>
-    </div>
-    <div class="entry-company"><a class="link" href="https://store.steampowered.com/app/2998920/Port_of_Jumanah/">Steam</a> &mdash; 2.5D rogue-lite action-adventure with underwater setting and Middle Eastern folklore art direction</div>
-    <ul>
-      <li>Supported visual polish, shader/VFX optimization, and material workflows.</li>
-      <li>Built a custom texture batch tool to fix alpha channel bleeding on masked materials.</li>
-      <li>Performance profiling and optimization for real-time performance.</li>
-    </ul>
-  </div>
+<h3>Software Engineer</h3>
+<p><strong>Private Company</strong>, Tangerang Selatan &mdash; <span class="period">April 2022 - September 2025 | Full-Time</span></p>
+<ul>
+<li>Set up secure file sharing and version control on AWS, supporting ISO 27001 certification.</li>
+<li>Improved real-time simulation performance by profiling and optimizing 3D scenes and assets.</li>
+<li>Automated asset variations using Unity editor scripts, reducing manual tasks.</li>
+<li>Introduced PlasticSCM and standardized file naming conventions to improve team collaboration and reduce errors.</li>
+</ul>
 
-  <div class="sub-entry">
-    <div class="entry-header">
-      <span class="entry-title">FNA</span>
-      <span class="entry-date">Apr 2026 - Present</span>
-    </div>
-    <div class="entry-company">Stylized multiplayer mobile game in Unreal Engine 5.5</div>
-    <ul>
-      <li>Developed and maintained VFX materials, shaders, and Niagara effects.</li>
-      <li>Created custom editor tools to streamline art pipeline and reduce manual work.</li>
-      <li>Built a Character Viewer system in UE5 for internal animation and VFX preview.</li>
-    </ul>
-  </div>
-</div>
+<h3>Stage/Level Designer</h3>
+<p><strong>Maentrus Digital Lab (MDL)</strong>, Remote &mdash; <span class="period">March 2022 - June 2023 | Freelance</span></p>
+<ul>
+<li>Created game ideas and design documents, contributing to game content and deliverables.</li>
+<li>Developed procedural generation scripts to speed up level design.</li>
+</ul>
 
-<div class="entry">
-  <div class="entry-header">
-    <span class="entry-title">Software Engineer</span>
-    <span class="entry-date">Apr 2022 - Sep 2025</span>
-  </div>
-  <div class="entry-company">Private Company &mdash; Tangerang Selatan</div>
-  <ul>
-    <li>Set up secure file sharing and version control on AWS, supporting ISO 27001 certification.</li>
-    <li>Improved real-time simulation performance by profiling and optimizing 3D scenes and assets.</li>
-    <li>Automated asset variations using Unity editor scripts, reducing manual tasks.</li>
-    <li>Introduced PlasticSCM and standardized file naming conventions to improve team collaboration.</li>
-  </ul>
-</div>
-
-<div class="entry">
-  <div class="entry-header">
-    <span class="entry-title">Stage / Level Designer</span>
-    <span class="entry-date">Mar 2022 - Jun 2023</span>
-  </div>
-  <div class="entry-company">Maentrus Digital Lab (MDL) &mdash; Remote</div>
-  <div class="entry-desc"><i>Mobile game development and publishing company.</i></div>
-  <ul>
-    <li>Created game ideas and design documents, contributing to game content and deliverables.</li>
-    <li>Developed procedural generation scripts to speed up level design.</li>
-  </ul>
-</div>
-
-<div class="entry">
-  <div class="entry-header">
-    <span class="entry-title">Game Programmer</span>
-    <span class="entry-date">Aug 2021 - Feb 2022</span>
-  </div>
-  <div class="entry-company">Gnom Studios &mdash; Bekasi</div>
-  <div class="entry-desc"><i>Indie game development studio for mobile and PC platforms.</i></div>
-  <ul>
-    <li>Integrated Firebase for user authentication and high-score tracking.</li>
-    <li>Designed levels and environments for an action-adventure game prototype.</li>
-    <li>Built a multiplayer prototype with Unity, Playmaker, and Photon PUN.</li>
-    <li>Configured SFX and VFX for enhanced game immersion.</li>
-  </ul>
-</div>
+<h3>Game Programmer</h3>
+<p><strong>Gnom Studios</strong>, Bekasi &mdash; <span class="period">August 2021 - February 2022 | Self-Employed</span></p>
+<ul>
+<li>Integrated Firebase for user authentication and high-score tracking.</li>
+<li>Designed levels and environments for an action-adventure game prototype.</li>
+<li>Built a multiplayer prototype with Unity, Playmaker, and Photon PUN.</li>
+<li>Configured SFX and VFX for enhanced game immersion.</li>
+</ul>
 
 <h2>Education</h2>
-<div class="entry">
-  <div class="entry-header">
-    <span class="entry-title">B.S. Computer Science</span>
-    <span class="entry-date">Dec 2021</span>
-  </div>
-  <div class="entry-company">BINUS University &mdash; Jakarta</div>
-  <div class="entry-desc">Game Application &amp; Technology Program &bull; GPA: 3.30/4.00</div>
-  <div class="entry-desc"><strong>Thesis:</strong> <em>Balarunta: Gamification of an Application for Plastic Waste Prevention on Android</em></div>
-</div>
+<h3>B.S. Computer Science (Game Application &amp; Technology Program)</h3>
+<p><strong>BINUS University</strong>, Jakarta &mdash; <span class="period">September 2016 - December 2021</span></p>
+<p>GPA: 3.30/4.00</p>
+<p>Thesis: <em>Balarunta: Gamification of an Application for Plastic Waste Prevention on Android</em></p>
+<p>Relevant Courses: Game Engine Programming, Object-Oriented Game Programming, Game Design, Human-Computer Interaction</p>
 
-<h2>Skills</h2>
-<div class="skills-grid">
-  <span><strong>Languages:</strong> C++, C#, Python, HTML, CSS, JavaScript, Java</span>
-  <span><strong>Game Engines:</strong> Unreal Engine (C++, Blueprint), Unity (C#)</span>
-  <span><strong>Version Control:</strong> Git, PlasticSCM</span>
-  <span><strong>Design:</strong> Blender, Adobe Suite, Final Cut Pro</span>
-  <span><strong>Tools:</strong> Visual Studio, JetBrains Rider, VS Code</span>
-</div>
+<h2>Additional Projects &amp; Activities</h2>
+<ul>
+<li><strong>Freelance Web Developer</strong> (Jan 2023 - Feb 2023) &mdash; Built wedding invitation websites, turning designs into responsive pages.</li>
+<li><strong>Ristekbrin CPPBT Finalist</strong> (2020) &mdash; Created Balarunta, a mobile app to promote plastic waste collection. Developed User App in Unity (C#) and Admin App in Android Studio (Java), using Firebase for backend services.</li>
+<li><strong>Beehub Business Incubator Participant</strong>, BINUS University (2019) &mdash; Co-founded LitterAlly, a startup focused on recycling plastic waste with a mobile app for waste collection.</li>
+<li><strong>Freelance Videographer</strong> (Apr 2018 - Oct 2020) &mdash; Videography and editing services for events.</li>
+<li><strong>Videographer &amp; Editor</strong>, Capcorn (Jan 2019 - Apr 2019) &mdash; Created event, competition, and promotional content.</li>
+</ul>
 
-</div>
+<h2>Leadership &amp; Organizational Experience</h2>
+<h3>KLIFONARA Photography Club, BINUS University</h3>
+<p><strong>Chairman</strong> (Jan 2018 - Dec 2018) &mdash; Led club activities, organized events, and collaborated with other organizations.</p>
+<p><strong>Production Division Coordinator</strong> (Jan 2017 - Dec 2017) &mdash; Managed production-related programs and exhibitions.</p>
+<ul>
+<li>Coordinated publication and documentation for events.</li>
+<li>Assistant Curator for the Sriwedariku Indonesia photo exhibition.</li>
+<li>Represented the university at the FPSI annual meeting.</li>
+</ul>
+
+<h2>Technical Skills</h2>
+<p><strong>Programming:</strong> C++, C#, HTML, CSS, JavaScript, Java, Python</p>
+<p><strong>Game Engines:</strong> Unity (C#), Unreal Engine (C++, Blueprint)</p>
+<p><strong>Version Control:</strong> Git, PlasticSCM</p>
+<p><strong>Tools:</strong> Visual Studio, JetBrains Rider, Visual Studio Code</p>
+<p><strong>Design &amp; Editing:</strong> Blender, Adobe (PS, AI, PP, AE), Final Cut Pro</p>
+
+<h2>Languages</h2>
+<p><strong>English:</strong> Proficient &mdash; <a href="https://cert.efset.org/rY7Bq6">EF SET Certificate</a></p>
+<p><strong>Indonesian:</strong> Native</p>
+
+<div class="footer">rmuqsith.github.io &mdash; June 2026</div>
+
 </body>
 </html>
